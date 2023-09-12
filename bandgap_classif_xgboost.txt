@@ -1,0 +1,1555 @@
+<LearnerClassifXgboost:classif.xgboost>
+* Model: -
+* Parameters: nrounds=1, nthread=5, verbose=0, early_stopping_set=none
+* Packages: mlr3, mlr3learners, xgboost
+* Predict Types:  response, [prob]
+* Feature Types: logical, integer, numeric
+* Properties: hotstart_forward, importance, missings, multiclass,
+  twoclass, weights
+INFO  [21:52:21.501] [bbotk] Starting to optimize 13 parameter(s) with '<TunerGridSearch>' and '<TerminatorNone>'
+INFO  [21:53:14.177] [bbotk] Evaluating 5 configuration(s)
+INFO  [21:53:14.409] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [21:53:14.458] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [21:53:15.429] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [21:53:15.598] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [21:53:15.763] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [21:53:15.939] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [21:53:16.131] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [21:53:16.303] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [21:53:16.474] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [21:53:16.640] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [21:53:16.807] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [21:53:16.975] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [21:53:17.151] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [21:53:17.329] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [21:53:17.504] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [21:53:17.679] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [21:53:17.853] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [21:53:18.087] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [21:53:18.265] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [21:53:18.442] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [21:53:18.622] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [21:53:18.801] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [21:53:18.934] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [21:53:19.040] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [21:53:19.168] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [21:53:19.272] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [21:53:19.399] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [21:53:19.537] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [21:53:19.706] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [21:53:19.842] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [21:53:20.002] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [21:53:20.146] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [22:01:52.510] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [22:10:43.338] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [22:21:01.348] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [22:30:47.166] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [22:40:27.473] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [22:50:55.291] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [23:03:04.023] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [23:13:04.910] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [23:21:50.726] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [23:30:47.045] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [23:39:55.276] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [23:49:27.300] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [23:59:00.044] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [00:08:38.196] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [00:18:19.856] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [00:28:03.010] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [00:38:10.372] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [00:48:12.683] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [00:58:20.944] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [01:08:37.254] [mlr3] Finished benchmark
+INFO  [01:08:37.396] [bbotk] Result of batch 1:
+INFO  [01:08:37.400] [bbotk]   nrounds booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [01:08:37.400] [bbotk]  3.964057    dart -9.210340  -7.026647  1.535057  6.907755       0.4         5
+INFO  [01:08:37.400] [bbotk]  3.964057    dart -6.140227 -11.512925  6.907755  1.535057       0.7        15
+INFO  [01:08:37.400] [bbotk]  3.964057    dart  0.000000  -2.540368 -3.837642 -3.837642       0.1        15
+INFO  [01:08:37.400] [bbotk]  8.000349    dart -9.210340   1.945910  6.907755  6.907755       1.0         5
+INFO  [01:08:37.400] [bbotk]  8.000349    dart  0.000000 -11.512925  6.907755  1.535057       0.1         5
+INFO  [01:08:37.400] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [01:08:37.400] [bbotk]          1.535057             1.00              0.01 0.6666667 1.0000000
+INFO  [01:08:37.400] [bbotk]          4.605170             0.34              1.00 0.0000000 0.3333333
+INFO  [01:08:37.400] [bbotk]          3.070113             0.67              1.00 1.0000000 0.6666667
+INFO  [01:08:37.400] [bbotk]          0.000000             0.67              1.00 0.0000000 0.3333333
+INFO  [01:08:37.400] [bbotk]          3.070113             0.67              0.01 0.3333333 1.0000000
+INFO  [01:08:37.400] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [01:08:37.400] [bbotk]    0.5000000        0      0            1.635
+INFO  [01:08:37.400] [bbotk]    0.7324266        0      0            1.686
+INFO  [01:08:37.400] [bbotk]    0.8066249        0      0            1.251
+INFO  [01:08:37.400] [bbotk]    0.5000000        0      0         5846.764
+INFO  [01:08:37.400] [bbotk]    0.8142630        0      0         5870.072
+INFO  [01:08:37.400] [bbotk]                                 uhash
+INFO  [01:08:37.400] [bbotk]  3fecd90b-60da-40e6-8ac7-fe00e8682b29
+INFO  [01:08:37.400] [bbotk]  6089965b-774a-4a68-a970-a982f59c4126
+INFO  [01:08:37.400] [bbotk]  0e7a95bc-f596-4593-a271-f7d98cc2ca6f
+INFO  [01:08:37.400] [bbotk]  69679ec5-43ba-4ff0-81ec-b5d9b7b2bcd8
+INFO  [01:08:37.400] [bbotk]  8aba0d4a-682b-4e04-9fee-b43efcfe64a6
+INFO  [01:08:37.403] [bbotk] Evaluating 5 configuration(s)
+INFO  [01:08:37.618] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [01:08:37.624] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [01:08:37.646] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [01:08:37.678] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [01:08:37.703] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [01:08:37.726] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [01:08:37.775] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [01:08:37.798] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [01:08:37.821] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [01:08:37.843] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [01:08:37.866] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [01:08:37.889] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [01:08:37.916] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [01:08:37.943] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [01:08:37.971] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [01:08:37.998] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [01:08:38.029] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [01:08:38.057] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [01:08:38.084] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [01:08:38.112] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [01:08:38.139] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [01:08:38.166] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [01:08:38.335] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [01:08:38.528] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [01:08:38.704] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [01:08:38.908] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [01:08:39.107] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [01:08:39.277] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [01:08:39.459] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [01:08:39.655] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [01:08:39.853] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [01:08:40.021] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [01:08:50.960] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [01:09:01.912] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [01:09:13.127] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [01:09:24.342] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [01:09:35.547] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [01:09:46.831] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [01:09:57.885] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [01:10:08.778] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [01:10:19.646] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [01:10:30.530] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [01:10:31.648] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [01:10:32.737] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [01:10:33.827] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [01:10:34.918] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [01:10:36.013] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [01:10:37.108] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [01:10:38.160] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [01:10:39.211] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [01:10:40.265] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [01:10:41.334] [mlr3] Finished benchmark
+INFO  [01:10:41.479] [bbotk] Result of batch 2:
+INFO  [01:10:41.481] [bbotk]   nrounds booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [01:10:41.481] [bbotk]  1.945910    dart -3.070113  -7.026647 -9.210340 -3.837642       0.4        15
+INFO  [01:10:41.481] [bbotk]  1.945910    dart -3.070113  -7.026647 -9.210340  1.535057       0.7         1
+INFO  [01:10:41.481] [bbotk]  3.964057    dart -6.140227 -11.512925  1.535057 -9.210340       0.7         5
+INFO  [01:10:41.481] [bbotk]  5.982203    dart  0.000000 -11.512925  1.535057  1.535057       1.0         5
+INFO  [01:10:41.481] [bbotk]  8.000349    dart -9.210340 -11.512925 -3.837642  1.535057       0.1         1
+INFO  [01:10:41.481] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [01:10:41.481] [bbotk]           4.60517             0.01              1.00 1.0000000 0.3333333
+INFO  [01:10:41.481] [bbotk]           0.00000             1.00              0.67 0.6666667 1.0000000
+INFO  [01:10:41.481] [bbotk]           0.00000             0.01              1.00 0.6666667 0.6666667
+INFO  [01:10:41.481] [bbotk]           4.60517             0.34              0.34 0.3333333 1.0000000
+INFO  [01:10:41.481] [bbotk]           0.00000             0.34              1.00 1.0000000 0.0000000
+INFO  [01:10:41.481] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [01:10:41.481] [bbotk]    0.6679882        0      0            0.126
+INFO  [01:10:41.481] [bbotk]    0.7829756        0      0            0.163
+INFO  [01:10:41.481] [bbotk]    0.8167421        0      0            1.744
+INFO  [01:10:41.481] [bbotk]    0.8452690        0      0          110.394
+INFO  [01:10:41.481] [bbotk]    0.8072144        0      0           10.681
+INFO  [01:10:41.481] [bbotk]                                 uhash
+INFO  [01:10:41.481] [bbotk]  3a7a30b7-a731-4eb6-b951-bc60ac8a2c32
+INFO  [01:10:41.481] [bbotk]  52a91f9e-dbf8-4bf5-9e21-508554cfd7d8
+INFO  [01:10:41.481] [bbotk]  7927ab3b-f88e-4934-a23f-95807f18e26a
+INFO  [01:10:41.481] [bbotk]  42e0991f-787c-4427-bb77-ecbc8b2af1ee
+INFO  [01:10:41.481] [bbotk]  5144d041-8f42-4586-9ee3-e0aa95ef1fa2
+INFO  [01:10:41.484] [bbotk] Evaluating 5 configuration(s)
+INFO  [01:10:41.688] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [01:10:41.693] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [01:10:41.886] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [01:10:42.075] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [01:10:42.265] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [01:10:42.459] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [01:10:42.641] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [01:10:42.833] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [01:10:43.021] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [01:10:43.214] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [01:10:43.405] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [01:10:43.592] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [01:10:43.803] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [01:10:44.015] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [01:10:44.228] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [01:10:44.438] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [01:10:44.651] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [01:10:44.863] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [01:10:45.075] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [01:10:45.287] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [01:10:45.500] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [01:10:45.715] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [01:10:57.533] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [01:11:09.395] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [01:11:21.498] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [01:11:33.794] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [01:11:46.343] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [01:11:58.989] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [01:12:11.671] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [01:12:24.265] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [01:12:36.840] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [01:12:49.433] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [01:12:58.485] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [01:13:07.392] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [01:13:16.604] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [01:13:25.599] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [01:13:34.667] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [01:13:43.416] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [01:13:52.014] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [01:14:00.505] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [01:14:09.292] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [01:14:18.693] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [01:29:17.117] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [01:44:10.376] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [01:59:04.970] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [02:13:55.087] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [02:28:53.874] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [02:43:47.951] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [02:58:55.084] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [03:14:01.882] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [03:29:07.929] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [03:44:16.397] [mlr3] Finished benchmark
+INFO  [03:44:16.536] [bbotk] Result of batch 3:
+INFO  [03:44:16.539] [bbotk]   nrounds booster       eta     gamma    lambda     alpha subsample max_depth
+INFO  [03:44:16.539] [bbotk]  3.964057    dart -3.070113 -7.026647  6.907755 -3.837642       0.1        10
+INFO  [03:44:16.539] [bbotk]  3.964057    dart  0.000000  1.945910 -3.837642  1.535057       0.1        10
+INFO  [03:44:16.539] [bbotk]  5.982203    dart -6.140227 -2.540368 -9.210340  1.535057       0.7         5
+INFO  [03:44:16.539] [bbotk]  5.982203    dart  0.000000 -7.026647  6.907755  1.535057       1.0         1
+INFO  [03:44:16.539] [bbotk]  8.000349    dart  0.000000 -7.026647  6.907755 -3.837642       0.7        10
+INFO  [03:44:16.539] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [03:44:16.539] [bbotk]          1.535057             0.01              1.00 0.3333333 0.6666667
+INFO  [03:44:16.539] [bbotk]          0.000000             0.34              0.01 0.0000000 0.3333333
+INFO  [03:44:16.539] [bbotk]          4.605170             0.67              0.67 0.3333333 1.0000000
+INFO  [03:44:16.539] [bbotk]          1.535057             1.00              1.00 0.6666667 0.6666667
+INFO  [03:44:16.539] [bbotk]          0.000000             1.00              0.67 0.3333333 1.0000000
+INFO  [03:44:16.539] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [03:44:16.539] [bbotk]    0.7491757        0      0            1.794
+INFO  [03:44:16.539] [bbotk]    0.8013902        0      0            2.012
+INFO  [03:44:16.539] [bbotk]    0.8252171        0      0          123.600
+INFO  [03:44:16.539] [bbotk]    0.8519090        0      0           89.148
+INFO  [03:44:16.539] [bbotk]    0.8718835        0      0         8997.562
+INFO  [03:44:16.539] [bbotk]                                 uhash
+INFO  [03:44:16.539] [bbotk]  25083cef-1888-4904-839a-c212cce51205
+INFO  [03:44:16.539] [bbotk]  447d50b2-0065-400f-9cd5-4387fd32e6ff
+INFO  [03:44:16.539] [bbotk]  f6615d8f-944c-481f-970d-c87abe25fab2
+INFO  [03:44:16.539] [bbotk]  85cfd17f-2790-45cc-8b25-3303aaed1a3a
+INFO  [03:44:16.539] [bbotk]  101a254b-4567-4bdb-b642-dbe25fa57214
+INFO  [03:44:16.541] [bbotk] Evaluating 5 configuration(s)
+INFO  [03:44:16.788] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [03:44:16.793] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [03:44:16.829] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [03:44:16.864] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [03:44:16.900] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [03:44:16.936] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [03:44:16.972] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [03:44:17.009] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [03:44:17.045] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [03:44:17.082] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [03:44:17.118] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [03:44:17.155] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [03:44:17.197] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [03:44:17.238] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [03:44:17.280] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [03:44:17.322] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [03:44:17.363] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [03:44:17.404] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [03:44:17.445] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [03:44:17.486] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [03:44:17.528] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [03:44:17.569] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [03:44:17.727] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [03:44:17.882] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [03:44:18.034] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [03:44:18.191] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [03:44:18.343] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [03:44:18.501] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [03:44:18.656] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [03:44:18.808] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [03:44:18.963] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [03:44:19.121] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [03:52:09.329] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [03:59:55.068] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [04:07:40.098] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [04:15:29.763] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [04:23:20.033] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [04:31:34.266] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [04:39:32.580] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [04:47:22.983] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [04:55:18.069] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [05:03:06.715] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [05:13:34.904] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [05:24:04.681] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [05:34:29.236] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [05:44:54.243] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [05:55:20.669] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [06:05:47.908] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [06:16:17.485] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [06:26:51.434] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [06:37:23.882] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [06:47:55.648] [mlr3] Finished benchmark
+INFO  [06:47:55.783] [bbotk] Result of batch 4:
+INFO  [06:47:55.785] [bbotk]   nrounds booster       eta     gamma    lambda     alpha subsample max_depth
+INFO  [06:47:55.785] [bbotk]  1.945910    dart -9.210340 -2.540368 -9.210340 -3.837642       1.0        10
+INFO  [06:47:55.785] [bbotk]  1.945910    dart -3.070113 -7.026647 -9.210340 -3.837642       1.0         5
+INFO  [06:47:55.785] [bbotk]  3.964057    dart -6.140227  1.945910 -9.210340  6.907755       1.0        10
+INFO  [06:47:55.785] [bbotk]  8.000349    dart -9.210340 -7.026647 -3.837642 -3.837642       0.7        15
+INFO  [06:47:55.785] [bbotk]  8.000349    dart -3.070113  1.945910  1.535057  1.535057       0.4        10
+INFO  [06:47:55.785] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [06:47:55.785] [bbotk]          1.535057             0.34              0.67 0.0000000 1.0000000
+INFO  [06:47:55.785] [bbotk]          0.000000             1.00              1.00 1.0000000 1.0000000
+INFO  [06:47:55.785] [bbotk]          0.000000             0.01              0.01 0.3333333 0.0000000
+INFO  [06:47:55.785] [bbotk]          0.000000             0.34              0.01 0.6666667 0.3333333
+INFO  [06:47:55.785] [bbotk]          1.535057             0.01              0.67 0.0000000 1.0000000
+INFO  [06:47:55.785] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [06:47:55.785] [bbotk]    0.8514160        0      0            0.250
+INFO  [06:47:55.785] [bbotk]    0.8489281        0      0            0.302
+INFO  [06:47:55.785] [bbotk]    0.5000000        0      0            1.434
+INFO  [06:47:55.785] [bbotk]    0.8472646        0      0         4727.464
+INFO  [06:47:55.785] [bbotk]    0.8507356        0      0         6288.792
+INFO  [06:47:55.785] [bbotk]                                 uhash
+INFO  [06:47:55.785] [bbotk]  47e2c6eb-8171-4751-a82f-e721eb03553e
+INFO  [06:47:55.785] [bbotk]  ff495894-7a09-437c-a320-7915d6140ab7
+INFO  [06:47:55.785] [bbotk]  18f7ea09-872f-46b6-9b71-fa5eed1043d2
+INFO  [06:47:55.785] [bbotk]  924d11e9-9e13-4026-94ee-48e4375c9617
+INFO  [06:47:55.785] [bbotk]  70bf1ec1-bdfc-4228-8abd-984f26abda79
+INFO  [06:47:55.788] [bbotk] Evaluating 5 configuration(s)
+INFO  [06:47:56.013] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [06:47:56.019] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [06:47:56.044] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [06:47:56.070] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [06:47:56.095] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [06:47:56.121] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [06:47:56.147] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [06:47:56.174] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [06:47:56.199] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [06:47:56.225] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [06:47:56.251] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [06:47:56.277] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [06:47:56.451] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [06:47:56.620] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [06:47:56.788] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [06:47:56.956] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [06:47:57.127] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [06:47:57.293] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [06:47:57.462] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [06:47:57.631] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [06:47:57.803] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [06:47:57.973] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [06:48:10.433] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [06:48:22.573] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [06:48:34.694] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [06:48:46.786] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [06:48:58.867] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [06:49:10.975] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [06:49:23.092] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [06:49:35.180] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [06:49:47.249] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [06:49:59.296] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [06:58:09.692] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [07:06:00.815] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [07:13:38.844] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [07:21:12.449] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [07:28:44.687] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [07:36:13.529] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [07:43:39.797] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [07:50:53.424] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [07:57:59.357] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [08:05:06.481] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [08:14:09.369] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [08:23:08.380] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [08:32:06.687] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [08:41:05.985] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [08:50:05.459] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [08:59:04.817] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [09:07:59.637] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [09:16:50.407] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [09:25:45.187] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [09:34:37.138] [mlr3] Finished benchmark
+INFO  [09:34:37.258] [bbotk] Result of batch 5:
+INFO  [09:34:37.260] [bbotk]   nrounds booster       eta      gamma   lambda     alpha subsample max_depth
+INFO  [09:34:37.260] [bbotk]  1.945910    dart -9.210340  -7.026647 6.907755  1.535057       0.1         1
+INFO  [09:34:37.260] [bbotk]  3.964057    dart -9.210340 -11.512925 6.907755 -3.837642       0.4         1
+INFO  [09:34:37.260] [bbotk]  5.982203    dart -6.140227   1.945910 6.907755  1.535057       0.7         5
+INFO  [09:34:37.260] [bbotk]  8.000349    dart -9.210340   1.945910 1.535057  1.535057       0.1         5
+INFO  [09:34:37.260] [bbotk]  8.000349    dart -6.140227 -11.512925 1.535057  6.907755       0.1         1
+INFO  [09:34:37.260] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [09:34:37.260] [bbotk]          1.535057             1.00              0.34 0.3333333 0.0000000
+INFO  [09:34:37.260] [bbotk]          1.535057             0.34              0.34 0.3333333 0.0000000
+INFO  [09:34:37.260] [bbotk]          3.070113             1.00              1.00 0.0000000 0.6666667
+INFO  [09:34:37.260] [bbotk]          0.000000             0.34              0.01 0.3333333 0.3333333
+INFO  [09:34:37.260] [bbotk]          0.000000             1.00              0.67 0.0000000 0.6666667
+INFO  [09:34:37.260] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [09:34:37.260] [bbotk]    0.6963765        0      0            0.139
+INFO  [09:34:37.260] [bbotk]    0.7501703        0      0            1.580
+INFO  [09:34:37.260] [bbotk]    0.7291042        0      0          121.208
+INFO  [09:34:37.260] [bbotk]    0.8136752        0      0         4507.069
+INFO  [09:34:37.260] [bbotk]    0.5000000        0      0         5370.529
+INFO  [09:34:37.260] [bbotk]                                 uhash
+INFO  [09:34:37.260] [bbotk]  40e5f78c-2b93-419e-b6a1-ca54c2d3c6b9
+INFO  [09:34:37.260] [bbotk]  836d6f58-3062-4dd3-a282-857096818c87
+INFO  [09:34:37.260] [bbotk]  60b6ee0a-e194-4c14-865b-38ac5fc1a3c8
+INFO  [09:34:37.260] [bbotk]  0d12a8d6-14ed-48a5-b9d2-0bde25f6bb7c
+INFO  [09:34:37.260] [bbotk]  b0325218-fded-4848-9934-4d8dd3164446
+INFO  [09:34:37.262] [bbotk] Evaluating 5 configuration(s)
+INFO  [09:34:37.484] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [09:34:37.489] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [09:34:37.515] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [09:34:37.542] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [09:34:37.568] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [09:34:37.596] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [09:34:37.623] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [09:34:37.651] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [09:34:37.677] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [09:34:37.704] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [09:34:37.731] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [09:34:37.758] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [09:34:37.991] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [09:34:38.229] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [09:34:38.459] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [09:34:38.690] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [09:34:38.921] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [09:34:39.152] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [09:34:39.378] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [09:34:39.610] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [09:34:39.837] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [09:34:40.071] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [09:34:47.795] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [09:34:55.707] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [09:35:03.589] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [09:35:11.533] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [09:35:19.179] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [09:35:26.876] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [09:35:34.561] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [09:35:42.003] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [09:35:49.616] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [09:35:57.262] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [09:36:06.985] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [09:36:16.647] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [09:36:26.305] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [09:36:36.024] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [09:36:45.699] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [09:36:55.334] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [09:37:04.874] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [09:37:14.274] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [09:37:23.658] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [09:37:33.118] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [09:44:28.386] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [09:51:25.019] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [09:58:21.777] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:05:17.357] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:12:07.451] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:19:08.065] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:26:00.917] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:32:57.801] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:40:16.548] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:47:19.993] [mlr3] Finished benchmark
+INFO  [10:47:20.126] [bbotk] Result of batch 6:
+INFO  [10:47:20.129] [bbotk]   nrounds booster       eta     gamma    lambda    alpha subsample max_depth
+INFO  [10:47:20.129] [bbotk]  1.945910    dart -3.070113 -7.026647 -9.210340 1.535057       1.0        15
+INFO  [10:47:20.129] [bbotk]  3.964057    dart -6.140227 -2.540368  1.535057 1.535057       0.1        10
+INFO  [10:47:20.129] [bbotk]  5.982203    dart -3.070113 -7.026647 -3.837642 1.535057       0.4         1
+INFO  [10:47:20.129] [bbotk]  5.982203    dart  0.000000 -7.026647 -3.837642 1.535057       0.7         5
+INFO  [10:47:20.129] [bbotk]  8.000349    dart -6.140227 -7.026647 -9.210340 6.907755       0.1         1
+INFO  [10:47:20.129] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [10:47:20.129] [bbotk]          3.070113             0.34              1.00 0.6666667 1.0000000
+INFO  [10:47:20.129] [bbotk]          0.000000             0.67              0.67 0.0000000 1.0000000
+INFO  [10:47:20.129] [bbotk]          1.535057             1.00              0.67 0.3333333 0.3333333
+INFO  [10:47:20.129] [bbotk]          4.605170             0.34              0.01 0.0000000 0.6666667
+INFO  [10:47:20.129] [bbotk]          4.605170             1.00              0.34 0.3333333 0.3333333
+INFO  [10:47:20.129] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [10:47:20.129] [bbotk]    0.8468637        0      0            0.167
+INFO  [10:47:20.129] [bbotk]    0.8199134        0      0            2.214
+INFO  [10:47:20.129] [bbotk]    0.8477348        0      0           77.092
+INFO  [10:47:20.129] [bbotk]    0.8261521        0      0           95.729
+INFO  [10:47:20.129] [bbotk]    0.5000000        0      0         4186.748
+INFO  [10:47:20.129] [bbotk]                                 uhash
+INFO  [10:47:20.129] [bbotk]  8334b63d-4099-404f-b535-18b0b668879d
+INFO  [10:47:20.129] [bbotk]  b952ce7d-e38f-4a93-863f-9ae89134ed42
+INFO  [10:47:20.129] [bbotk]  bb242257-f378-4200-aa60-f92a487883f1
+INFO  [10:47:20.129] [bbotk]  d1f2d8b5-60c6-474c-9033-3e381c1c66e6
+INFO  [10:47:20.129] [bbotk]  59bfc71c-cf6e-402c-9158-ab3d6a43d075
+INFO  [10:47:20.131] [bbotk] Evaluating 5 configuration(s)
+INFO  [10:47:20.349] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [10:47:20.354] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:47:20.377] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:47:20.400] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:47:20.423] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:47:20.446] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:47:20.469] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:47:20.492] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:47:20.514] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:47:20.563] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:47:20.585] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:47:20.607] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:47:24.474] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:47:28.373] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:47:32.258] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:47:36.101] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:47:40.023] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:47:43.866] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:47:47.698] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:47:51.589] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:47:55.469] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:47:59.307] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:48:11.489] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:48:23.776] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:48:35.934] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:48:48.149] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:49:00.303] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:49:12.505] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:49:24.716] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:49:36.865] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:49:48.997] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:50:01.212] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:50:10.638] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:50:20.143] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:50:29.818] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:50:39.445] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:50:49.075] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:50:58.647] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:51:08.308] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:51:17.922] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:51:27.817] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:51:37.593] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+[10:51:37] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:51:38.276] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+[10:51:38] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:51:38.951] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+[10:51:38] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:51:39.630] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+[10:51:39] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:51:40.312] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+[10:51:40] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:51:40.967] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+[10:51:40] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:51:41.625] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+[10:51:41] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:51:42.287] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+[10:51:42] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:51:42.971] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+[10:51:42] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:51:43.629] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+[10:51:43] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:51:44.296] [mlr3] Finished benchmark
+INFO  [10:51:44.408] [bbotk] Result of batch 7:
+INFO  [10:51:44.410] [bbotk]   nrounds  booster       eta     gamma    lambda     alpha subsample max_depth
+INFO  [10:51:44.410] [bbotk]  1.945910     dart -6.140227 -2.540368  1.535057 -3.837642       0.4        10
+INFO  [10:51:44.410] [bbotk]  5.982203     dart -9.210340 -7.026647 -9.210340  1.535057       0.4         5
+INFO  [10:51:44.410] [bbotk]  5.982203     dart -6.140227 -2.540368 -9.210340 -3.837642       0.7         5
+INFO  [10:51:44.410] [bbotk]  5.982203     dart  0.000000 -7.026647 -9.210340 -3.837642       0.7        10
+INFO  [10:51:44.410] [bbotk]  8.000349 gblinear -9.210340 -7.026647  6.907755  6.907755       0.1        10
+INFO  [10:51:44.410] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [10:51:44.410] [bbotk]          4.605170             0.67              0.01 0.0000000 1.0000000
+INFO  [10:51:44.410] [bbotk]          3.070113             0.67              0.34 0.6666667 0.0000000
+INFO  [10:51:44.410] [bbotk]          0.000000             1.00              0.01 0.0000000 0.0000000
+INFO  [10:51:44.410] [bbotk]          3.070113             0.01              1.00 0.3333333 0.6666667
+INFO  [10:51:44.410] [bbotk]          3.070113             0.34              0.34        NA        NA
+INFO  [10:51:44.410] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [10:51:44.410] [bbotk]    0.6342000        0      0            0.126
+INFO  [10:51:44.410] [bbotk]    0.8309338        0      0           38.600
+INFO  [10:51:44.410] [bbotk]    0.8545036        0      0          121.801
+INFO  [10:51:44.410] [bbotk]    0.8472120        0      0           96.278
+INFO  [10:51:44.410] [bbotk]    0.5000000        0      0            6.591
+INFO  [10:51:44.410] [bbotk]                                 uhash
+INFO  [10:51:44.410] [bbotk]  2a58f41c-2550-4d0d-b2eb-76c55546af5b
+INFO  [10:51:44.410] [bbotk]  67f8f8a9-5982-4949-ac6d-4f7f34df5ec4
+INFO  [10:51:44.410] [bbotk]  d8da95f1-7cdf-417c-91e2-bd21b6e6a8d8
+INFO  [10:51:44.410] [bbotk]  0cd021b8-11ef-4571-9abf-f740ab5ab0b6
+INFO  [10:51:44.410] [bbotk]  8f9bc509-741c-47fb-80c1-63f37b6605fb
+INFO  [10:51:44.412] [bbotk] Evaluating 5 configuration(s)
+INFO  [10:51:44.601] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [10:51:44.606] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:51:44.628] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:51:44.650] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:51:44.672] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:51:44.694] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:51:44.739] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:51:44.760] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:51:44.782] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:51:44.804] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:51:44.827] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:51:44.849] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:51:44.871] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:51:44.894] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:51:44.917] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:51:44.940] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:51:44.963] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:51:44.984] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:51:45.007] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:51:45.043] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:51:45.083] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:51:45.106] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:51:45.127] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:51:45.149] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:51:45.171] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:51:45.193] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:51:45.214] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:51:45.236] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:51:45.258] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:51:45.280] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:51:45.302] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:51:45.324] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:51:45.345] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:51:45.367] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:51:45.388] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:51:45.409] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:51:45.430] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:51:45.451] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:51:45.474] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:51:45.495] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:51:45.517] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:51:45.538] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:51:51.393] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:51:57.229] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:52:02.933] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:52:08.638] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:52:14.308] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:52:19.895] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:52:25.449] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:52:31.070] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:52:36.642] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:52:42.537] [mlr3] Finished benchmark
+INFO  [10:52:42.648] [bbotk] Result of batch 8:
+INFO  [10:52:42.650] [bbotk]   nrounds booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [10:52:42.650] [bbotk]  1.945910  gbtree -3.070113   1.945910 -9.210340 -3.837642       0.4         1
+INFO  [10:52:42.650] [bbotk]  1.945910    dart -6.140227 -11.512925  1.535057 -3.837642       0.7         1
+INFO  [10:52:42.650] [bbotk]  1.945910    dart -3.070113  -7.026647  6.907755 -9.210340       1.0         1
+INFO  [10:52:42.650] [bbotk]  1.945910    dart -3.070113   1.945910  1.535057 -3.837642       0.1         5
+INFO  [10:52:42.650] [bbotk]  8.000349    dart -3.070113 -11.512925  1.535057  1.535057       1.0        15
+INFO  [10:52:42.650] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [10:52:42.650] [bbotk]          1.535057             1.00              0.67        NA        NA
+INFO  [10:52:42.650] [bbotk]          1.535057             0.67              0.67 0.3333333 0.0000000
+INFO  [10:52:42.650] [bbotk]          1.535057             0.34              0.01 0.0000000 0.3333333
+INFO  [10:52:42.650] [bbotk]          4.605170             1.00              0.01 0.3333333 0.3333333
+INFO  [10:52:42.650] [bbotk]          1.535057             0.67              1.00 1.0000000 0.0000000
+INFO  [10:52:42.650] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [10:52:42.650] [bbotk]    0.7791984        0      0            0.121
+INFO  [10:52:42.650] [bbotk]    0.7518803        0      0            0.128
+INFO  [10:52:42.650] [bbotk]    0.6122420        0      0            0.119
+INFO  [10:52:42.650] [bbotk]    0.5000000        0      0            0.115
+INFO  [10:52:42.650] [bbotk]    0.8501889        0      0           56.859
+INFO  [10:52:42.650] [bbotk]                                 uhash
+INFO  [10:52:42.650] [bbotk]  4fd474ab-fb76-4104-885f-885714883948
+INFO  [10:52:42.650] [bbotk]  af22d09a-9e52-4475-a026-8e064412a748
+INFO  [10:52:42.650] [bbotk]  8ffdb556-fe69-4cb1-9eaf-9012c1f58242
+INFO  [10:52:42.650] [bbotk]  e9930301-9507-4cae-be5d-ea852b3fda35
+INFO  [10:52:42.650] [bbotk]  d7420ea0-1911-459b-a78f-401e3ebd9950
+INFO  [10:52:42.653] [bbotk] Evaluating 5 configuration(s)
+INFO  [10:52:42.870] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [10:52:42.875] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:52:42.896] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:52:42.917] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:52:42.939] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:52:42.960] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:52:42.982] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:52:43.003] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:52:43.025] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:52:43.047] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:52:43.069] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:52:43.091] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:52:43.252] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:52:43.418] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:52:43.577] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:52:43.743] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:52:43.901] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:52:44.082] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:52:44.236] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:52:44.409] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:52:44.583] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:52:44.738] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:52:44.772] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:52:44.805] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:52:44.839] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:52:44.873] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:52:44.907] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:52:44.942] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:52:44.976] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:52:45.011] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:52:45.045] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:52:45.079] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:52:45.218] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:52:45.361] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:52:45.497] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:52:45.636] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:52:45.771] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:52:45.898] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:52:46.040] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:52:46.190] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:52:46.323] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:52:46.474] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+[10:52:46] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:52:46.595] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+[10:52:46] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:52:46.746] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+[10:52:46] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:52:46.867] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+[10:52:46] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:52:46.986] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+[10:52:46] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:52:47.104] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+[10:52:47] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:52:47.223] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+[10:52:47] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:52:47.340] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+[10:52:47] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:52:47.463] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+[10:52:47] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:52:47.583] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+[10:52:47] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [10:52:47.716] [mlr3] Finished benchmark
+INFO  [10:52:47.828] [bbotk] Result of batch 9:
+INFO  [10:52:47.830] [bbotk]   nrounds  booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [10:52:47.830] [bbotk]  1.945910     dart -9.210340  -2.540368  6.907755 -9.210340       0.4        15
+INFO  [10:52:47.830] [bbotk]  3.964057     dart -9.210340  -7.026647  1.535057 -9.210340       0.7         1
+INFO  [10:52:47.830] [bbotk]  3.964057     dart -6.140227  -2.540368  1.535057 -3.837642       0.1         5
+INFO  [10:52:47.830] [bbotk]  3.964057     dart -3.070113 -11.512925 -9.210340  6.907755       0.1        10
+INFO  [10:52:47.830] [bbotk]  5.982203 gblinear  0.000000   1.945910  6.907755 -3.837642       0.7        10
+INFO  [10:52:47.830] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [10:52:47.830] [bbotk]          3.070113             0.01              0.67 0.3333333 0.3333333
+INFO  [10:52:47.830] [bbotk]          3.070113             0.01              0.67 0.6666667 0.6666667
+INFO  [10:52:47.830] [bbotk]          4.605170             1.00              0.67 1.0000000 0.0000000
+INFO  [10:52:47.830] [bbotk]          3.070113             0.01              0.34 1.0000000 0.6666667
+INFO  [10:52:47.830] [bbotk]          0.000000             1.00              0.67        NA        NA
+INFO  [10:52:47.830] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [10:52:47.830] [bbotk]    0.6352923        0      0            0.119
+INFO  [10:52:47.830] [bbotk]    0.7816266        0      0            1.547
+INFO  [10:52:47.830] [bbotk]    0.5000000        0      0            0.239
+INFO  [10:52:47.830] [bbotk]    0.5000000        0      0            1.293
+INFO  [10:52:47.830] [bbotk]    0.7963385        0      0            1.128
+INFO  [10:52:47.830] [bbotk]                                 uhash
+INFO  [10:52:47.830] [bbotk]  28e5a451-6eb8-4caa-a9df-79e777854a2f
+INFO  [10:52:47.830] [bbotk]  ba0ff69e-db5b-4898-81a2-441535e3a467
+INFO  [10:52:47.830] [bbotk]  9cc0f8c8-b649-464b-a0cc-2594c62a58b3
+INFO  [10:52:47.830] [bbotk]  d0babbae-855e-4b4b-8cf7-005c35bfe5be
+INFO  [10:52:47.830] [bbotk]  2017ee61-59a2-43c8-aa46-6e3b6a2bce9b
+INFO  [10:52:47.832] [bbotk] Evaluating 5 configuration(s)
+INFO  [10:52:48.022] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [10:52:48.027] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:52:48.049] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:52:48.071] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:52:48.093] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:52:48.115] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:52:48.137] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:52:48.158] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:52:48.180] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:52:48.202] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:52:48.224] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:52:48.246] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:52:48.273] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:52:48.300] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:52:48.326] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:52:48.354] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:52:48.380] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:52:48.434] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:52:48.460] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:52:48.486] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:52:48.513] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:52:48.540] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:52:48.749] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:52:48.951] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:52:49.157] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:52:49.363] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:52:49.569] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:52:49.775] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:52:49.979] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:52:50.181] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:52:50.386] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:52:50.594] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:53:00.143] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:53:09.708] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:53:19.303] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:53:28.865] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:53:38.472] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:53:48.039] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:53:57.866] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:54:07.689] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:54:17.520] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:54:27.236] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:54:37.718] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:54:48.156] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:54:58.460] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:55:08.620] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:55:18.805] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:55:29.189] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:55:39.736] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:55:50.183] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:56:00.611] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:56:11.426] [mlr3] Finished benchmark
+INFO  [10:56:11.544] [bbotk] Result of batch 10:
+INFO  [10:56:11.547] [bbotk]   nrounds booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [10:56:11.547] [bbotk]  1.945910    dart -3.070113  -2.540368  1.535057 -9.210340       1.0         1
+INFO  [10:56:11.547] [bbotk]  1.945910    dart  0.000000  -7.026647 -9.210340 -3.837642       1.0         5
+INFO  [10:56:11.547] [bbotk]  3.964057    dart -9.210340 -11.512925  1.535057 -9.210340       0.1         5
+INFO  [10:56:11.547] [bbotk]  5.982203    dart -9.210340 -11.512925 -3.837642  1.535057       0.1        15
+INFO  [10:56:11.547] [bbotk]  5.982203    dart  0.000000 -11.512925  6.907755  1.535057       0.4         5
+INFO  [10:56:11.547] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [10:56:11.547] [bbotk]          0.000000             0.01              1.00 0.0000000 0.6666667
+INFO  [10:56:11.547] [bbotk]          4.605170             1.00              0.67 0.3333333 0.0000000
+INFO  [10:56:11.547] [bbotk]          0.000000             1.00              0.01 0.0000000 0.3333333
+INFO  [10:56:11.547] [bbotk]          4.605170             0.67              0.34 1.0000000 1.0000000
+INFO  [10:56:11.547] [bbotk]          3.070113             0.34              0.34 0.3333333 1.0000000
+INFO  [10:56:11.547] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [10:56:11.547] [bbotk]    0.6971374        0      0            0.122
+INFO  [10:56:11.547] [bbotk]    0.8429565        0      0            0.171
+INFO  [10:56:11.547] [bbotk]    0.8266420        0      0            1.952
+INFO  [10:56:11.547] [bbotk]    0.5000000        0      0           96.538
+INFO  [10:56:11.547] [bbotk]    0.8601025        0      0          104.079
+INFO  [10:56:11.547] [bbotk]                                 uhash
+INFO  [10:56:11.547] [bbotk]  5eb88935-d83d-4e2f-bea1-43b6e716d08c
+INFO  [10:56:11.547] [bbotk]  8006875a-bab9-4d37-a826-ad67b7b69d3d
+INFO  [10:56:11.547] [bbotk]  5cc36a66-3df6-45fd-9d81-8e69f4d1e49d
+INFO  [10:56:11.547] [bbotk]  5fb8ea61-a6aa-417f-adb4-965444a652d9
+INFO  [10:56:11.547] [bbotk]  b7f8c023-1472-4fd9-acc5-fcd81106a227
+INFO  [10:56:11.549] [bbotk] Evaluating 5 configuration(s)
+INFO  [10:56:11.744] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [10:56:11.750] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:56:11.773] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:56:11.795] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:56:11.819] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:56:11.843] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:56:11.867] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:56:11.890] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:56:11.913] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:56:11.936] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:56:11.959] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:56:11.983] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:56:12.006] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:56:12.028] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:56:12.051] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:56:12.073] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:56:12.095] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:56:12.117] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:56:12.139] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:56:12.161] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:56:12.183] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:56:12.205] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:56:12.376] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:56:12.556] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:56:12.720] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:56:12.883] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:56:13.070] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:56:13.225] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:56:13.430] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:56:13.619] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:56:13.790] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:56:13.959] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:56:14.072] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:56:14.192] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:56:14.325] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:56:14.438] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:56:14.564] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:56:14.694] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:56:14.839] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:56:14.969] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:56:15.097] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:56:15.213] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:56:25.742] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:56:36.228] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:56:46.453] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:56:56.615] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:57:06.854] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:57:17.043] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:57:27.203] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:57:37.391] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:57:47.309] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:57:57.306] [mlr3] Finished benchmark
+INFO  [10:57:57.416] [bbotk] Result of batch 11:
+INFO  [10:57:57.419] [bbotk]   nrounds booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [10:57:57.419] [bbotk]  1.945910    dart -9.210340  -7.026647  1.535057  1.535057       0.1        10
+INFO  [10:57:57.419] [bbotk]  1.945910    dart  0.000000  -7.026647 -9.210340  1.535057       0.1         5
+INFO  [10:57:57.419] [bbotk]  3.964057    dart -9.210340  -7.026647  6.907755 -3.837642       0.1        10
+INFO  [10:57:57.419] [bbotk]  3.964057    dart -3.070113 -11.512925  6.907755  6.907755       0.4         5
+INFO  [10:57:57.419] [bbotk]  5.982203    dart -3.070113  -7.026647 -9.210340  1.535057       1.0        10
+INFO  [10:57:57.419] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [10:57:57.419] [bbotk]          4.605170             0.34              0.34 0.0000000 0.3333333
+INFO  [10:57:57.419] [bbotk]          4.605170             0.01              0.34 0.3333333 0.3333333
+INFO  [10:57:57.419] [bbotk]          1.535057             1.00              0.34 0.6666667 0.6666667
+INFO  [10:57:57.419] [bbotk]          3.070113             0.34              0.67 0.6666667 0.3333333
+INFO  [10:57:57.419] [bbotk]          4.605170             0.67              0.01 0.6666667 1.0000000
+INFO  [10:57:57.419] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [10:57:57.419] [bbotk]    0.5000000        0      0            0.128
+INFO  [10:57:57.419] [bbotk]    0.5000000        0      0            0.121
+INFO  [10:57:57.419] [bbotk]    0.7842741        0      0            1.617
+INFO  [10:57:57.419] [bbotk]    0.5000000        0      0            1.149
+INFO  [10:57:57.419] [bbotk]    0.8474627        0      0          101.980
+INFO  [10:57:57.419] [bbotk]                                 uhash
+INFO  [10:57:57.419] [bbotk]  ccaa1b80-aa37-430e-8b9c-1cb0df4b312d
+INFO  [10:57:57.419] [bbotk]  5a7cf252-42eb-4fbc-9539-551f92afa2f5
+INFO  [10:57:57.419] [bbotk]  007e7431-6a32-4bc1-8fa8-aef4b3662229
+INFO  [10:57:57.419] [bbotk]  c568e1a0-cd88-4a58-9688-7ce53164a8d2
+INFO  [10:57:57.419] [bbotk]  374f6c01-a3c4-47c1-ba5c-ba93d97c8fc0
+INFO  [10:57:57.421] [bbotk] Evaluating 5 configuration(s)
+INFO  [10:57:57.635] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [10:57:57.640] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:57:57.660] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:57:57.681] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:57:57.701] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:57:57.722] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:57:57.743] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:57:57.764] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:57:57.786] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:57:57.807] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:57:57.829] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:57:57.851] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:57:57.900] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:57:57.950] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:57:58.001] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:57:58.051] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:57:58.100] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:57:58.150] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:57:58.201] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:57:58.251] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:57:58.301] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:57:58.350] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:57:58.372] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:57:58.394] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:57:58.416] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:57:58.438] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:57:58.459] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:57:58.481] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:57:58.502] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:57:58.523] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:57:58.544] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:57:58.566] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [10:57:58.723] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [10:57:58.876] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [10:57:59.026] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [10:57:59.179] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [10:57:59.341] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [10:57:59.502] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [10:57:59.655] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [10:57:59.816] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [10:57:59.979] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [10:58:00.134] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [11:01:09.832] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [11:04:12.893] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [11:07:16.179] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [11:10:19.741] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [11:13:22.707] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [11:16:25.918] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [11:19:31.397] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [11:22:34.029] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [11:25:41.066] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [11:28:44.565] [mlr3] Finished benchmark
+INFO  [11:28:44.681] [bbotk] Result of batch 12:
+INFO  [11:28:44.684] [bbotk]   nrounds booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [11:28:44.684] [bbotk]  1.945910  gbtree  0.000000 -11.512925 -3.837642  6.907755       0.7        15
+INFO  [11:28:44.684] [bbotk]  1.945910    dart -6.140227  -2.540368 -3.837642 -9.210340       0.7        10
+INFO  [11:28:44.684] [bbotk]  1.945910    dart -3.070113  -2.540368  6.907755  6.907755       1.0         5
+INFO  [11:28:44.684] [bbotk]  3.964057    dart -3.070113  -2.540368 -9.210340  1.535057       1.0        10
+INFO  [11:28:44.684] [bbotk]  8.000349    dart -3.070113   1.945910  1.535057  1.535057       0.4         5
+INFO  [11:28:44.684] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [11:28:44.684] [bbotk]          0.000000             0.67              1.00        NA        NA
+INFO  [11:28:44.684] [bbotk]          1.535057             1.00              1.00 0.0000000 0.3333333
+INFO  [11:28:44.684] [bbotk]          4.605170             1.00              0.34 1.0000000 1.0000000
+INFO  [11:28:44.684] [bbotk]          0.000000             0.01              1.00 0.3333333 0.3333333
+INFO  [11:28:44.684] [bbotk]          1.535057             0.01              0.67 0.6666667 0.0000000
+INFO  [11:28:44.684] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [11:28:44.684] [bbotk]    0.5000000        0      0            0.120
+INFO  [11:28:44.684] [bbotk]    0.8543823        0      0            0.402
+INFO  [11:28:44.684] [bbotk]    0.5000000        0      0            0.119
+INFO  [11:28:44.684] [bbotk]    0.8173667        0      0            1.468
+INFO  [11:28:44.684] [bbotk]    0.8174538        0      0         1844.312
+INFO  [11:28:44.684] [bbotk]                                 uhash
+INFO  [11:28:44.684] [bbotk]  3af197dc-b885-4fc9-a256-10184a0b48eb
+INFO  [11:28:44.684] [bbotk]  c919dbcc-a56b-42e3-b0b8-cdfabc201676
+INFO  [11:28:44.684] [bbotk]  a827e9c4-781d-4d5c-bb10-9678fbfdcfd9
+INFO  [11:28:44.684] [bbotk]  35f59345-010e-420c-9c91-2199ba988441
+INFO  [11:28:44.684] [bbotk]  dc6a5f0e-85b1-4279-8e93-95ebaf129f26
+INFO  [11:28:44.686] [bbotk] Evaluating 5 configuration(s)
+INFO  [11:28:44.878] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [11:28:44.883] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [11:28:44.905] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [11:28:44.926] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [11:28:44.949] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [11:28:44.971] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [11:28:44.993] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [11:28:45.016] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [11:28:45.039] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [11:28:45.062] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [11:28:45.084] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [11:28:45.107] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [11:28:45.129] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [11:28:45.151] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [11:28:45.173] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [11:28:45.196] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [11:28:45.218] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [11:28:45.241] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [11:28:45.263] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [11:28:45.285] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [11:28:45.307] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [11:28:45.330] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [11:28:45.351] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [11:28:45.371] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [11:28:45.393] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [11:28:45.413] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [11:28:45.434] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [11:28:45.454] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [11:28:45.531] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [11:28:45.571] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [11:28:45.594] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [11:28:45.619] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [11:37:41.610] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [11:46:39.500] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [11:55:33.891] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [12:04:27.205] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [12:13:18.913] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [12:22:13.530] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [12:31:02.640] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [12:39:55.200] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [12:48:48.494] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [12:57:38.887] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [13:06:30.945] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [13:15:49.381] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [13:25:49.954] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [13:35:58.194] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [13:45:45.581] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [13:57:27.845] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [14:10:56.582] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [14:23:22.866] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [14:34:16.770] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [14:45:30.327] [mlr3] Finished benchmark
+INFO  [14:45:30.536] [bbotk] Result of batch 13:
+INFO  [14:45:30.540] [bbotk]   nrounds booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [14:45:30.540] [bbotk]  1.945910    dart -9.210340 -11.512925 -9.210340 -3.837642       0.7         1
+INFO  [14:45:30.540] [bbotk]  1.945910    dart -6.140227  -7.026647  6.907755  6.907755       0.7         5
+INFO  [14:45:30.540] [bbotk]  1.945910    dart -3.070113 -11.512925 -9.210340  6.907755       0.7         1
+INFO  [14:45:30.540] [bbotk]  8.000349    dart  0.000000  -7.026647 -9.210340  6.907755       0.7        10
+INFO  [14:45:30.540] [bbotk]  8.000349    dart  0.000000   1.945910 -3.837642  1.535057       0.1         1
+INFO  [14:45:30.540] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [14:45:30.540] [bbotk]          1.535057             0.01              1.00 0.6666667 1.0000000
+INFO  [14:45:30.540] [bbotk]          1.535057             0.01              1.00 0.3333333 1.0000000
+INFO  [14:45:30.540] [bbotk]          1.535057             0.01              0.34 1.0000000 0.3333333
+INFO  [14:45:30.540] [bbotk]          3.070113             0.01              0.67 0.0000000 1.0000000
+INFO  [14:45:30.540] [bbotk]          4.605170             0.34              0.34 1.0000000 1.0000000
+INFO  [14:45:30.540] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [14:45:30.540] [bbotk]    0.7671242        0      0            0.126
+INFO  [14:45:30.540] [bbotk]    0.5000000        0      0            0.125
+INFO  [14:45:30.540] [bbotk]    0.5000000        0      0            0.114
+INFO  [14:45:30.540] [bbotk]    0.5000000        0      0         5333.152
+INFO  [14:45:30.540] [bbotk]    0.5000000        0      0         6471.235
+INFO  [14:45:30.540] [bbotk]                                 uhash
+INFO  [14:45:30.540] [bbotk]  21414ada-905d-40e7-9b77-7973b1c23383
+INFO  [14:45:30.540] [bbotk]  32eca0e7-2091-429a-802a-1934d16da74c
+INFO  [14:45:30.540] [bbotk]  f97de3df-f4dd-4f61-a20c-a65a3422346a
+INFO  [14:45:30.540] [bbotk]  e96cb357-e8ec-4588-a805-daf752e6f886
+INFO  [14:45:30.540] [bbotk]  712485fc-e640-4a98-94c7-86472350bdb2
+INFO  [14:45:30.543] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:45:30.823] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [14:45:30.831] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+[14:45:30] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [14:45:30.856] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+[14:45:30] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [14:45:30.884] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+[14:45:30] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [14:45:30.911] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+[14:45:30] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [14:45:30.937] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+[14:45:30] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [14:45:30.963] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+[14:45:30] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [14:45:30.997] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+[14:45:31] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [14:45:31.026] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+[14:45:31] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [14:45:31.083] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+[14:45:31] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [14:45:31.109] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+[14:45:31] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [14:45:31.135] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [14:45:31.166] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [14:45:31.198] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [14:45:31.230] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [14:45:31.259] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [14:45:31.287] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [14:45:31.317] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [14:45:31.344] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [14:45:31.372] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [14:45:31.400] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [14:45:31.429] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [14:45:31.455] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [14:45:31.482] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [14:45:31.510] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [14:45:31.537] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [14:45:31.564] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [14:45:31.591] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [14:45:31.619] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [14:45:31.645] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [14:45:31.673] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [14:45:31.700] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [14:45:43.905] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [14:45:56.454] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [14:46:09.107] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [14:46:21.752] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [14:46:34.387] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [14:46:47.055] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [14:46:59.437] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [14:47:11.511] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [14:47:23.350] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [14:47:35.318] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [14:55:14.799] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [15:03:07.359] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [15:10:26.963] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [15:20:39.905] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [15:28:36.189] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [15:36:29.820] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [15:44:18.042] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [15:52:08.096] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [15:59:45.654] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [16:07:21.216] [mlr3] Finished benchmark
+INFO  [16:07:21.352] [bbotk] Result of batch 14:
+INFO  [16:07:21.355] [bbotk]   nrounds  booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [16:07:21.355] [bbotk]  1.945910 gblinear -6.140227  -7.026647  1.535057  6.907755       0.4         5
+INFO  [16:07:21.355] [bbotk]  1.945910     dart -6.140227   1.945910  1.535057  6.907755       0.4        15
+INFO  [16:07:21.355] [bbotk]  1.945910     dart -3.070113 -11.512925 -3.837642 -9.210340       0.1         1
+INFO  [16:07:21.355] [bbotk]  5.982203     dart  0.000000 -11.512925 -3.837642  1.535057       0.4        10
+INFO  [16:07:21.355] [bbotk]  8.000349     dart -6.140227   1.945910 -9.210340 -3.837642       0.4        15
+INFO  [16:07:21.355] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [16:07:21.355] [bbotk]          0.000000             0.67              0.67        NA        NA
+INFO  [16:07:21.355] [bbotk]          4.605170             0.34              0.67         0 0.3333333
+INFO  [16:07:21.355] [bbotk]          0.000000             0.01              0.34         1 0.6666667
+INFO  [16:07:21.355] [bbotk]          3.070113             0.34              0.01         0 0.0000000
+INFO  [16:07:21.355] [bbotk]          1.535057             0.34              0.34         1 0.6666667
+INFO  [16:07:21.355] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [16:07:21.355] [bbotk]    0.5000000        0      0            0.127
+INFO  [16:07:21.355] [bbotk]    0.5000000        0      0            0.166
+INFO  [16:07:21.355] [bbotk]    0.7112365        0      0            0.148
+INFO  [16:07:21.355] [bbotk]    0.8654779        0      0          123.490
+INFO  [16:07:21.355] [bbotk]    0.8678948        0      0         4785.729
+INFO  [16:07:21.355] [bbotk]                                 uhash
+INFO  [16:07:21.355] [bbotk]  eba3bdcf-b08c-4c1d-b68c-27651d52816e
+INFO  [16:07:21.355] [bbotk]  2f77de3d-3226-4b65-b391-fff4544f063f
+INFO  [16:07:21.355] [bbotk]  42a80be9-483f-4034-aa69-0e03589c3bab
+INFO  [16:07:21.355] [bbotk]  e7547993-3fce-4cec-aa60-d549c4faa32f
+INFO  [16:07:21.355] [bbotk]  ffe7ce70-8d22-492d-bd08-c56a6383a564
+INFO  [16:07:21.357] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:07:21.562] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [16:07:21.567] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [16:07:21.591] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [16:07:21.615] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [16:07:21.640] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [16:07:21.663] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [16:07:21.687] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [16:07:21.710] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [16:07:21.733] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [16:07:21.756] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [16:07:21.777] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [16:07:21.800] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [16:07:21.823] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [16:07:21.846] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [16:07:21.870] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [16:07:21.893] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [16:07:21.917] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [16:07:21.941] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [16:07:21.965] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [16:07:21.988] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [16:07:22.012] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [16:07:22.036] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [16:07:32.193] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [16:07:42.351] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [16:07:52.523] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [16:08:02.859] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [16:08:13.350] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [16:08:23.828] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [16:08:34.340] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [16:08:44.825] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [16:08:55.618] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [16:09:06.418] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [16:09:09.750] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [16:09:13.637] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [16:09:17.140] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [16:09:20.661] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [16:09:24.184] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [16:09:28.197] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [16:09:32.319] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [16:09:35.686] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [16:09:39.151] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [16:09:42.816] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [16:15:18.441] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [16:20:57.746] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [16:26:38.341] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [16:32:21.630] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [16:37:46.643] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [16:43:18.412] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [16:48:50.713] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [16:54:09.699] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [16:59:32.538] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [17:05:02.910] [mlr3] Finished benchmark
+INFO  [17:05:03.034] [bbotk] Result of batch 15:
+INFO  [17:05:03.037] [bbotk]   nrounds booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [17:05:03.037] [bbotk]  1.945910    dart -9.210340   1.945910  6.907755  6.907755       0.4         1
+INFO  [17:05:03.037] [bbotk]  1.945910    dart -3.070113 -11.512925  1.535057  6.907755       1.0         1
+INFO  [17:05:03.037] [bbotk]  5.982203    dart -9.210340   1.945910  6.907755  6.907755       0.7         5
+INFO  [17:05:03.037] [bbotk]  5.982203    dart -6.140227  -2.540368 -3.837642  6.907755       1.0         5
+INFO  [17:05:03.037] [bbotk]  8.000349    dart -9.210340   1.945910 -9.210340 -3.837642       0.7         1
+INFO  [17:05:03.037] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [17:05:03.037] [bbotk]          1.535057             0.67              0.01 0.6666667 0.3333333
+INFO  [17:05:03.037] [bbotk]          4.605170             0.01              1.00 0.0000000 0.6666667
+INFO  [17:05:03.037] [bbotk]          3.070113             1.00              0.34 0.0000000 1.0000000
+INFO  [17:05:03.037] [bbotk]          4.605170             0.01              0.34 1.0000000 0.3333333
+INFO  [17:05:03.037] [bbotk]          0.000000             1.00              0.34 0.6666667 0.3333333
+INFO  [17:05:03.037] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [17:05:03.037] [bbotk]    0.5000000        0      0            0.125
+INFO  [17:05:03.037] [bbotk]    0.5000000        0      0            0.131
+INFO  [17:05:03.037] [bbotk]    0.5000000        0      0          104.267
+INFO  [17:05:03.037] [bbotk]    0.5000000        0      0           36.286
+INFO  [17:05:03.037] [bbotk]    0.8079799        0      0         3319.968
+INFO  [17:05:03.037] [bbotk]                                 uhash
+INFO  [17:05:03.037] [bbotk]  4ec7812b-220a-4783-b779-146d535cdad9
+INFO  [17:05:03.037] [bbotk]  9478b005-af91-44d3-b457-0bf7269cfdc8
+INFO  [17:05:03.037] [bbotk]  32a3126e-4f95-4dbe-b989-e78d292c1bd5
+INFO  [17:05:03.037] [bbotk]  416e515c-ab54-48bb-9ad2-37d64d2c4ac5
+INFO  [17:05:03.037] [bbotk]  3f95b83e-0ee8-46e8-b982-c2ad211e9246
+INFO  [17:05:03.039] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:05:03.279] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [17:05:03.285] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+[17:05:03] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:05:03.304] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+[17:05:03] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:05:03.324] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+[17:05:03] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:05:03.344] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+[17:05:03] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:05:03.364] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+[17:05:03] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:05:03.384] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+[17:05:03] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:05:03.405] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+[17:05:03] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:05:03.426] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+[17:05:03] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:05:03.446] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+[17:05:03] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:05:03.466] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+[17:05:03] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:05:03.487] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [17:05:03.512] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [17:05:03.538] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [17:05:03.564] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [17:05:03.590] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [17:05:03.616] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [17:05:03.640] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [17:05:03.666] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [17:05:03.692] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [17:05:03.717] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [17:05:03.744] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [17:05:03.767] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [17:05:03.790] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [17:05:03.813] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [17:05:03.836] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [17:05:03.860] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [17:05:03.884] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [17:05:03.907] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [17:05:03.930] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [17:05:03.953] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [17:05:03.975] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [17:05:04.085] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [17:05:04.230] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [17:05:04.387] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [17:05:04.521] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [17:05:04.661] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [17:05:04.805] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [17:05:04.937] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [17:05:05.077] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [17:05:05.223] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [17:05:05.373] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [17:05:05.683] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [17:05:05.997] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [17:05:06.315] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [17:05:06.663] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [17:05:06.984] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [17:05:07.308] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [17:05:07.626] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [17:05:07.944] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [17:05:08.260] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [17:05:08.587] [mlr3] Finished benchmark
+INFO  [17:05:08.712] [bbotk] Result of batch 16:
+INFO  [17:05:08.714] [bbotk]   nrounds  booster       eta      gamma    lambda     alpha subsample max_depth
+INFO  [17:05:08.714] [bbotk]  1.945910 gblinear -6.140227 -11.512925  6.907755 -9.210340       0.7        10
+INFO  [17:05:08.714] [bbotk]  1.945910     dart -3.070113  -2.540368  6.907755 -3.837642       0.4        10
+INFO  [17:05:08.714] [bbotk]  1.945910     dart  0.000000   1.945910  1.535057  6.907755       1.0         5
+INFO  [17:05:08.714] [bbotk]  3.964057     dart -9.210340  -2.540368 -3.837642  6.907755       0.7        15
+INFO  [17:05:08.714] [bbotk]  3.964057     dart -3.070113 -11.512925 -9.210340 -9.210340       1.0        10
+INFO  [17:05:08.714] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [17:05:08.714] [bbotk]          1.535057             0.01              0.01        NA        NA
+INFO  [17:05:08.714] [bbotk]          1.535057             0.67              0.34 0.6666667 1.0000000
+INFO  [17:05:08.714] [bbotk]          0.000000             0.01              0.01 0.3333333 1.0000000
+INFO  [17:05:08.714] [bbotk]          4.605170             0.67              0.01 1.0000000 0.6666667
+INFO  [17:05:08.714] [bbotk]          3.070113             0.34              0.67 0.6666667 1.0000000
+INFO  [17:05:08.714] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [17:05:08.714] [bbotk]    0.7975519        0      0            0.099
+INFO  [17:05:08.714] [bbotk]    0.6975624        0      0            0.152
+INFO  [17:05:08.714] [bbotk]    0.5000000        0      0            0.126
+INFO  [17:05:08.714] [bbotk]    0.5000000        0      0            1.289
+INFO  [17:05:08.714] [bbotk]    0.8651777        0      0            3.058
+INFO  [17:05:08.714] [bbotk]                                 uhash
+INFO  [17:05:08.714] [bbotk]  db0095f7-3da9-4e03-9e7f-74d7c50be2a6
+INFO  [17:05:08.714] [bbotk]  70fe99db-d91a-4046-8bba-a98964783014
+INFO  [17:05:08.714] [bbotk]  6775b853-d775-44eb-b7b0-dab7a281c0b5
+INFO  [17:05:08.714] [bbotk]  9c57d898-de70-43a8-b916-a6bdea066dac
+INFO  [17:05:08.714] [bbotk]  6aa76900-4a02-4c8f-bbab-bad573a6b62f
+INFO  [17:05:08.717] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:05:08.920] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [17:05:08.925] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [17:05:08.949] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [17:05:08.972] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [17:05:08.995] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [17:05:09.018] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [17:05:09.042] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [17:05:09.065] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [17:05:09.088] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [17:05:09.111] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [17:05:09.134] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [17:05:09.158] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [17:05:09.182] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [17:05:09.207] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [17:05:09.231] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [17:05:09.255] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [17:05:09.278] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [17:05:09.302] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [17:05:09.326] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [17:05:09.350] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [17:05:09.375] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [17:05:09.399] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [17:05:15.006] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [17:05:20.528] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [17:05:26.430] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [17:05:31.778] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [17:05:37.161] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [17:05:42.705] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [17:05:48.400] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [17:05:53.729] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [17:05:59.405] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [17:06:05.020] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [17:06:08.348] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [17:06:11.642] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [17:06:14.951] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [17:06:18.214] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [17:06:21.556] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [17:06:24.924] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [17:06:28.305] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [17:06:31.735] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [17:06:35.174] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [17:06:38.622] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [17:11:54.112] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [17:17:11.941] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [17:22:31.503] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [17:27:43.741] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [17:32:59.035] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [17:38:18.776] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [17:43:33.209] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [17:48:48.316] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [17:53:56.052] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [17:59:05.887] [mlr3] Finished benchmark
+INFO  [17:59:06.009] [bbotk] Result of batch 17:
+INFO  [17:59:06.012] [bbotk]   nrounds booster       eta     gamma    lambda     alpha subsample max_depth
+INFO  [17:59:06.012] [bbotk]  1.945910    dart -6.140227 -2.540368  1.535057 -9.210340       0.1        10
+INFO  [17:59:06.012] [bbotk]  1.945910    dart  0.000000 -2.540368 -9.210340  6.907755       1.0        15
+INFO  [17:59:06.012] [bbotk]  5.982203    dart -3.070113 -2.540368 -3.837642 -9.210340       0.1        10
+INFO  [17:59:06.012] [bbotk]  5.982203    dart  0.000000  1.945910 -9.210340  6.907755       0.7        10
+INFO  [17:59:06.012] [bbotk]  8.000349    dart -3.070113 -7.026647 -3.837642 -9.210340       0.4        15
+INFO  [17:59:06.012] [bbotk]  min_child_weight colsample_bytree colsample_bylevel rate_drop skip_drop
+INFO  [17:59:06.012] [bbotk]          4.605170             0.34              0.01 0.6666667 1.0000000
+INFO  [17:59:06.012] [bbotk]          0.000000             1.00              0.67 0.0000000 0.3333333
+INFO  [17:59:06.012] [bbotk]          4.605170             0.67              0.34 0.6666667 0.3333333
+INFO  [17:59:06.012] [bbotk]          3.070113             0.34              1.00 0.6666667 0.0000000
+INFO  [17:59:06.012] [bbotk]          4.605170             0.34              0.67 0.6666667 0.3333333
+INFO  [17:59:06.012] [bbotk]  classif.auc warnings errors runtime_learners
+INFO  [17:59:06.012] [bbotk]    0.5000000        0      0            0.129
+INFO  [17:59:06.012] [bbotk]    0.5000000        0      0            0.140
+INFO  [17:59:06.012] [bbotk]    0.5000000        0      0           55.509
+INFO  [17:59:06.012] [bbotk]    0.5000000        0      0           33.498
+INFO  [17:59:06.012] [bbotk]    0.7902373        0      0         3147.147
+INFO  [17:59:06.012] [bbotk]                                 uhash
+INFO  [17:59:06.012] [bbotk]  f82741c3-e428-4f03-8bc1-1873b3d44526
+INFO  [17:59:06.012] [bbotk]  59600cab-2043-4324-8c61-e5f8ef681248
+INFO  [17:59:06.012] [bbotk]  60216cae-1105-477d-b4b5-198787c68247
+INFO  [17:59:06.012] [bbotk]  b84741e0-2ca4-41ec-a7d0-d1081a389ca1
+INFO  [17:59:06.012] [bbotk]  69e8b926-dbae-466a-8195-b28d8f9ac13c
+INFO  [17:59:06.014] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:59:06.207] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [17:59:06.212] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:06.232] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:06.251] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:06.271] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:06.291] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:06.310] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:06.329] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:06.349] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:06.368] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:06.387] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:06.407] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+[17:59:06] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:07.069] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+[17:59:07] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:07.771] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+[17:59:07] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:08.428] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+[17:59:08] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:09.090] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+[17:59:09] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:09.749] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+[17:59:09] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:10.439] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+[17:59:10] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:11.123] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+[17:59:11] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:11.798] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+[17:59:11] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:12.477] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+[17:59:12] WARNING: src/learner.cc:767: 
+Parameters: { "colsample_bylevel", "colsample_bytree", "gamma", "max_depth", "min_child_weight", "subsample" } are not used.
+
+INFO  [17:59:13.164] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [18:03:18.197] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [18:07:22.390] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [18:12:02.050] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [18:16:46.807] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [18:22:01.502] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [18:27:11.630] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [18:32:28.740] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)
+INFO  [18:37:45.970] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 9/10)
+INFO  [18:43:22.664] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 10/10)
+INFO  [18:49:15.713] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 1/10)
+INFO  [19:00:12.265] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 2/10)
+INFO  [19:10:07.679] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 3/10)
+INFO  [19:19:58.967] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 4/10)
+INFO  [19:29:45.752] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 5/10)
+INFO  [19:39:36.070] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 6/10)
+INFO  [19:49:27.402] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 7/10)
+INFO  [19:59:50.349] [mlr3] Applying learner 'classif.xgboost' on task 'data_for_ML' (iter 8/10)

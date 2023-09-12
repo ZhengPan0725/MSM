@@ -1,0 +1,1678 @@
+<LearnerClassifSVM:classif.svm>
+* Model: -
+* Parameters: type=C-classification
+* Packages: mlr3, mlr3learners, e1071
+* Predict Types:  response, [prob]
+* Feature Types: logical, integer, numeric
+* Properties: multiclass, twoclass
+INFO  [21:51:55.177] [bbotk] Starting to optimize 5 parameter(s) with '<TunerGridSearch>' and '<TerminatorNone>'
+INFO  [21:51:55.218] [bbotk] Evaluating 5 configuration(s)
+INFO  [21:51:55.303] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [21:51:55.335] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [21:51:56.595] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [21:51:57.807] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [21:51:59.028] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [21:52:00.230] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [21:52:01.412] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [21:52:02.571] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [21:52:03.915] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [21:52:05.112] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [21:52:06.301] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [21:52:07.478] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [21:52:08.110] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [21:52:08.734] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [21:52:09.370] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [21:52:09.964] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [21:52:10.571] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [21:52:11.194] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [21:52:11.820] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [21:52:12.435] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [21:52:13.079] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [21:52:13.696] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [22:03:52.044] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [22:16:46.491] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [22:30:05.004] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [22:43:15.581] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [23:04:33.983] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [23:21:22.369] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [23:33:25.580] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [23:45:58.624] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [23:58:46.276] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [00:11:44.763] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [00:11:45.547] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [00:11:46.329] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [00:11:47.102] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [00:11:47.908] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [00:11:48.683] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [00:11:49.466] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [00:11:50.273] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [00:11:51.053] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [00:11:51.845] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [00:11:52.627] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [00:11:54.644] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [00:11:56.618] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [00:11:58.623] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [00:12:00.622] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [00:12:02.625] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [00:12:04.589] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [00:12:06.578] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [00:12:08.561] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [00:12:10.540] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [00:12:12.535] [mlr3] Finished benchmark
+INFO  [00:12:12.758] [bbotk] Result of batch 1:
+INFO  [00:12:12.765] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [00:12:12.765] [bbotk]  polynomial -9.210340  1.535057 -2.608015      3   0.8089775        0      0
+INFO  [00:12:12.765] [bbotk]  polynomial  6.907755 -9.210340 -9.210340      5   0.6044617        0      0
+INFO  [00:12:12.765] [bbotk]  polynomial  6.907755  1.535057 -2.608015      2   0.5116852        0      0
+INFO  [00:12:12.765] [bbotk]      radial -9.210340  6.907755 -2.608015     NA   0.5000000        0      0
+INFO  [00:12:12.765] [bbotk]      radial  1.535057  1.535057 -2.608015     NA   0.6758629        0      0
+INFO  [00:12:12.765] [bbotk]  runtime_learners                                uhash
+INFO  [00:12:12.765] [bbotk]            12.032 cc8fa019-41b7-4c32-bedc-fb84d67b8b88
+INFO  [00:12:12.765] [bbotk]             6.130 9da9a103-3c28-4b62-b092-99f09bf0062e
+INFO  [00:12:12.765] [bbotk]          8370.815 f2fd1d32-f93d-4c97-a52e-57136dadc42c
+INFO  [00:12:12.765] [bbotk]             7.752 163d0712-9034-4371-a164-40bf8f2b7d4b
+INFO  [00:12:12.765] [bbotk]            19.776 52ad09fc-4ba5-4f06-9c32-d2dc8bd27eb6
+INFO  [00:12:12.768] [bbotk] Evaluating 5 configuration(s)
+INFO  [00:12:12.893] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [00:12:12.900] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [00:18:06.066] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [00:24:45.374] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [00:31:41.032] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [00:38:44.513] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [00:45:31.229] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [00:52:17.978] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [00:59:21.014] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [01:06:24.464] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [01:13:26.628] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [01:20:32.205] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [01:20:33.035] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [01:20:33.869] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [01:20:34.677] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [01:20:35.493] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [01:20:36.316] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [01:20:37.121] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [01:20:37.932] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [01:20:38.755] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [01:20:39.609] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [01:20:40.419] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [01:26:46.777] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [01:33:40.039] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [01:40:41.718] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [01:47:43.024] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [01:54:32.803] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:01:15.137] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:08:12.100] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:15:11.051] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:22:11.302] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:29:12.229] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:29:13.628] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:29:15.042] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:29:16.430] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:29:17.832] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:29:19.237] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:29:20.625] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:29:21.985] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:29:23.393] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:29:24.825] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:29:26.242] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:29:27.923] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:29:29.765] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:29:31.456] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:29:33.115] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:29:34.779] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:29:36.447] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:29:38.034] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:29:39.777] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:29:41.518] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:29:43.296] [mlr3] Finished benchmark
+INFO  [02:29:43.416] [bbotk] Result of batch 2:
+INFO  [02:29:43.417] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [02:29:43.417] [bbotk]  polynomial -9.210340  6.907755 -2.608015      2   0.7520479        0      0
+INFO  [02:29:43.417] [bbotk]  polynomial  1.535057 -9.210340 -5.909178      4   0.6107289        0      0
+INFO  [02:29:43.417] [bbotk]  polynomial  1.535057  1.535057 -5.909178      2   0.7488420        0      0
+INFO  [02:29:43.417] [bbotk]  polynomial  6.907755  1.535057 -5.909178      5   0.7591405        0      0
+INFO  [02:29:43.417] [bbotk]  polynomial  6.907755  6.907755 -9.210340      5   0.7591468        0      0
+INFO  [02:29:43.417] [bbotk]  runtime_learners                                uhash
+INFO  [02:29:43.417] [bbotk]          4099.186 1de1a064-a5bf-45c0-84c8-73515f058b4b
+INFO  [02:29:43.417] [bbotk]             8.102 dda96edc-c709-43d0-a3cd-b00ad2153008
+INFO  [02:29:43.417] [bbotk]          4111.692 4e4e6bd9-8a1d-47da-9b8e-9453597deae8
+INFO  [02:29:43.417] [bbotk]            13.900 fb3bbb99-1737-4775-84a7-444cbb398ed7
+INFO  [02:29:43.417] [bbotk]            16.934 15457b47-568c-451c-a3d7-8545a96f7c19
+INFO  [02:29:43.419] [bbotk] Evaluating 5 configuration(s)
+INFO  [02:29:43.498] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [02:29:43.503] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:29:45.501] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:29:47.596] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:29:49.617] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:29:51.638] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:29:53.750] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:29:55.698] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:29:57.754] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:29:59.784] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:30:01.905] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:30:03.949] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:30:04.742] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:30:05.541] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:30:06.325] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:30:07.131] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:30:07.897] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:30:08.680] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:30:09.456] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:30:10.253] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:30:11.058] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:30:11.850] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:30:13.037] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:30:14.260] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:30:15.425] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:30:16.603] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:30:17.819] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:30:18.910] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:30:20.067] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:30:21.221] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:30:22.457] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:30:23.653] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:31:27.795] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:32:01.796] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:32:38.884] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:33:13.245] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:33:48.226] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:34:20.130] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:34:53.189] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:35:42.545] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:36:28.502] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:37:13.006] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:37:13.940] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:37:14.715] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:37:15.490] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:37:16.257] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:37:17.031] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:37:17.805] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:37:18.565] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:37:19.335] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:37:20.117] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:37:20.899] [mlr3] Finished benchmark
+INFO  [02:37:21.015] [bbotk] Result of batch 3:
+INFO  [02:37:21.017] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [02:37:21.017] [bbotk]  polynomial -9.210340  1.535057 -5.9091779      4   0.7553347        0      0
+INFO  [02:37:21.017] [bbotk]  polynomial -3.837642 -9.210340  0.6931472      2   0.5331089        0      0
+INFO  [02:37:21.017] [bbotk]  polynomial  1.535057  1.535057  0.6931472      4   0.7551927        0      0
+INFO  [02:37:21.017] [bbotk]  polynomial  6.907755  1.535057 -9.2103404      3   0.7702578        0      0
+INFO  [02:37:21.017] [bbotk]      radial -3.837642  6.907755 -2.6080153     NA   0.5000000        0      0
+INFO  [02:37:21.017] [bbotk]  runtime_learners                                uhash
+INFO  [02:37:21.017] [bbotk]            20.333 9dd6435d-5d94-4578-971c-94cb8d41cf94
+INFO  [02:37:21.017] [bbotk]             7.786 42e8bc13-880b-4907-ad4d-3b0e1d82b55e
+INFO  [02:37:21.017] [bbotk]            11.691 11a031ba-6683-48c9-ad87-4978c5aa8cfd
+INFO  [02:37:21.017] [bbotk]           409.238 950223e0-dfea-433e-a1d4-d6e75ce2977d
+INFO  [02:37:21.017] [bbotk]             7.776 86a4b327-f187-458b-8687-5de7011f418a
+INFO  [02:37:21.019] [bbotk] Evaluating 5 configuration(s)
+INFO  [02:37:21.096] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [02:37:21.102] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:37:22.624] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:37:24.114] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:37:25.585] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:37:27.110] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:37:28.612] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:37:30.048] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:37:31.509] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:37:32.970] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:37:34.476] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:37:35.992] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:37:36.916] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:37:37.793] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:37:38.661] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:37:39.518] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:37:40.367] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:37:41.239] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:37:42.102] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:37:42.969] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:37:43.855] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:37:44.718] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:37:48.846] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:37:52.488] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:37:56.024] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:37:59.659] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:38:03.077] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:38:06.446] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:38:09.638] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:38:13.063] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:38:16.943] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:38:20.548] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:38:21.418] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:38:22.274] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:38:23.115] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:38:23.948] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:38:24.780] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:38:25.617] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:38:26.441] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:38:27.296] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:38:28.154] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:38:28.998] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:38:31.950] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:38:34.874] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:38:37.594] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:38:40.402] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:38:43.259] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:38:45.944] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:38:49.109] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:38:51.940] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:38:55.120] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:38:57.929] [mlr3] Finished benchmark
+INFO  [02:38:58.052] [bbotk] Result of batch 4:
+INFO  [02:38:58.054] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [02:38:58.054] [bbotk]  polynomial -9.210340  6.907755 -2.6080153      4   0.7554527        0      0
+INFO  [02:38:58.054] [bbotk]  polynomial -3.837642 -3.837642 -9.2103404      3   0.8176724        0      0
+INFO  [02:38:58.054] [bbotk]  polynomial -3.837642  1.535057  0.6931472      3   0.7685125        0      0
+INFO  [02:38:58.054] [bbotk]  polynomial  1.535057 -9.210340 -2.6080153      4   0.6107289        0      0
+INFO  [02:38:58.054] [bbotk]  polynomial  1.535057  1.535057 -9.2103404      4   0.7553264        0      0
+INFO  [02:38:58.054] [bbotk]  runtime_learners                                uhash
+INFO  [02:38:58.054] [bbotk]            14.785 0537b575-3bb4-4423-bed1-a865622fa8c9
+INFO  [02:38:58.054] [bbotk]             8.614 270f97f2-61d1-4dc4-b570-1eae7fc60fc6
+INFO  [02:38:58.054] [bbotk]            35.721 b717afda-662c-4d3a-b8a0-67fe17e49ca7
+INFO  [02:38:58.054] [bbotk]             8.333 3c805e2a-7e1b-4eb9-a1e7-070cd5660eba
+INFO  [02:38:58.054] [bbotk]            28.799 d7994594-a2bb-4d71-9b76-ffa8a48401dd
+INFO  [02:38:58.055] [bbotk] Evaluating 5 configuration(s)
+INFO  [02:38:58.135] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [02:38:58.141] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:38:58.979] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:38:59.795] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:39:00.622] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:39:01.437] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:39:02.248] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:39:03.058] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:39:03.863] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:39:04.679] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:39:05.507] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:39:06.325] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:39:10.791] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:39:14.909] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:39:19.050] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:39:23.244] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:39:27.359] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:39:31.335] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:39:35.367] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:39:39.328] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:39:43.314] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:39:47.326] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:39:48.429] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:39:49.349] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:39:50.272] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:39:51.203] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:39:52.128] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:39:53.051] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:39:53.975] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:39:54.918] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:39:55.847] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:39:56.768] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:39:58.823] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:40:00.841] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:40:02.734] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:40:04.772] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:40:06.775] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:40:08.745] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:40:10.778] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:40:12.733] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:40:14.851] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:40:16.905] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:40:17.923] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:40:18.926] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:40:19.917] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:40:20.917] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:40:21.901] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:40:22.898] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:40:23.881] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:40:24.898] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:40:25.932] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:40:26.933] [mlr3] Finished benchmark
+INFO  [02:40:27.057] [bbotk] Result of batch 5:
+INFO  [02:40:27.059] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [02:40:27.059] [bbotk]  polynomial -9.210340 -3.837642 -2.608015      4   0.6906162        0      0
+INFO  [02:40:27.059] [bbotk]  polynomial -3.837642  1.535057 -2.608015      2   0.7605512        0      0
+INFO  [02:40:27.059] [bbotk]  polynomial  1.535057 -3.837642 -5.909178      2   0.7315842        0      0
+INFO  [02:40:27.059] [bbotk]  polynomial  1.535057  1.535057 -5.909178      4   0.7553347        0      0
+INFO  [02:40:27.059] [bbotk]      radial -9.210340 -9.210340 -5.909178     NA   0.8061099        0      0
+INFO  [02:40:27.059] [bbotk]  runtime_learners                                uhash
+INFO  [02:40:27.059] [bbotk]             8.065 2b741dd3-621c-43e1-965f-6f50af910b06
+INFO  [02:40:27.059] [bbotk]            40.883 11fe351e-dc21-4ddc-93ce-01fc116c09c5
+INFO  [02:40:27.059] [bbotk]             9.331 27989767-7673-424d-9ad6-681f9f7cfec0
+INFO  [02:40:27.059] [bbotk]            20.031 abd69e7d-e257-499f-b49f-196b5657bd52
+INFO  [02:40:27.059] [bbotk]             9.906 0c83da8b-662b-4d66-afd9-bc9e5bc5df69
+INFO  [02:40:27.061] [bbotk] Evaluating 5 configuration(s)
+INFO  [02:40:27.144] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [02:40:27.150] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:40:28.031] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:40:28.869] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:40:29.704] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:40:30.540] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:40:31.359] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:40:32.182] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:40:32.998] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:40:33.837] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:40:34.688] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:40:35.514] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:40:36.360] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:40:37.192] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:40:38.020] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:40:38.863] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:40:39.674] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:40:40.512] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:40:41.339] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:40:42.184] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:40:43.052] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:40:43.877] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:40:44.813] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:40:45.686] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:40:46.569] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:40:47.441] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:40:48.310] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:40:49.188] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:40:50.049] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:40:50.937] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:40:51.820] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:40:52.677] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:40:53.419] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:40:54.173] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:40:54.932] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:40:55.682] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:40:56.439] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:40:57.172] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:40:57.938] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:40:58.708] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:40:59.454] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:41:00.211] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:41:00.933] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:41:01.645] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:41:02.368] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:41:03.088] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:41:03.801] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:41:04.501] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:41:05.208] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:41:05.948] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:41:06.663] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:41:07.406] [mlr3] Finished benchmark
+INFO  [02:41:07.533] [bbotk] Result of batch 6:
+INFO  [02:41:07.535] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [02:41:07.535] [bbotk]  polynomial -9.210340 -9.210340 -5.9091779      5   0.5577891        0      0
+INFO  [02:41:07.535] [bbotk]  polynomial -3.837642 -9.210340  0.6931472      5   0.7416916        0      0
+INFO  [02:41:07.535] [bbotk]  polynomial -3.837642 -3.837642 -5.9091779      3   0.8180551        0      0
+INFO  [02:41:07.535] [bbotk]      radial -3.837642  1.535057  0.6931472     NA   0.6179868        0      0
+INFO  [02:41:07.535] [bbotk]      radial  6.907755  1.535057  0.6931472     NA   0.6197600        0      0
+INFO  [02:41:07.535] [bbotk]  runtime_learners                                uhash
+INFO  [02:41:07.535] [bbotk]             8.249 6cb08bae-c556-4b4e-a52a-5a8b61971cfd
+INFO  [02:41:07.535] [bbotk]             8.252 a6b0a0da-ecd9-4a0c-9ef7-8268da78d459
+INFO  [02:41:07.535] [bbotk]             8.687 cdb1cf22-1b73-4c16-934d-99806077e703
+INFO  [02:41:07.535] [bbotk]             7.417 24422d89-2e9c-4807-8ddc-425d8a30dc3e
+INFO  [02:41:07.535] [bbotk]             7.069 1abc11da-ff44-4a0c-a1f9-bd77557906b5
+INFO  [02:41:07.536] [bbotk] Evaluating 5 configuration(s)
+INFO  [02:41:07.619] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [02:41:07.625] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:41:08.480] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:41:09.336] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:41:10.155] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:41:10.971] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:41:11.786] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:41:12.611] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:41:13.400] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:41:14.192] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:41:15.011] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:41:15.805] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:41:16.638] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:41:17.464] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:41:18.271] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:41:19.096] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:41:19.886] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:41:20.693] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:41:21.503] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:41:22.309] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:41:23.132] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:41:23.950] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:41:24.775] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:41:25.582] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:41:26.382] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:41:27.193] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:41:27.985] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:41:28.790] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:41:29.598] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:41:30.411] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:41:31.229] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:41:32.038] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:41:32.872] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:41:33.694] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:41:34.510] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:41:35.317] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:41:36.123] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:41:36.932] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:41:37.731] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:41:38.551] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:41:39.383] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:41:40.183] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:41:41.260] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:41:42.246] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:41:43.231] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:41:44.211] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:41:45.188] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:41:46.169] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:41:47.146] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:41:48.128] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:41:49.130] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:41:50.134] [mlr3] Finished benchmark
+INFO  [02:41:50.254] [bbotk] Result of batch 7:
+INFO  [02:41:50.256] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [02:41:50.256] [bbotk]  polynomial -9.210340 -9.210340 -9.210340      2   0.5702051        0      0
+INFO  [02:41:50.256] [bbotk]  polynomial -9.210340 -9.210340 -9.210340      4   0.5546507        0      0
+INFO  [02:41:50.256] [bbotk]  polynomial -9.210340 -9.210340 -2.608015      5   0.5584520        0      0
+INFO  [02:41:50.256] [bbotk]  polynomial -3.837642 -9.210340 -2.608015      4   0.6556597        0      0
+INFO  [02:41:50.256] [bbotk]      radial -9.210340 -3.837642 -9.210340     NA   0.8397520        0      0
+INFO  [02:41:50.256] [bbotk]  runtime_learners                                uhash
+INFO  [02:41:50.256] [bbotk]             8.065 31b94c24-a006-427c-a4dc-559457a48e5a
+INFO  [02:41:50.256] [bbotk]             8.025 a3734874-7f9f-4dfa-b88b-6b4eda2822c7
+INFO  [02:41:50.256] [bbotk]             7.975 511507b5-f2f3-4ef2-b7c2-f7fdd1a85997
+INFO  [02:41:50.256] [bbotk]             8.032 28401ec3-2e77-4d13-800e-5a921e0c2db3
+INFO  [02:41:50.256] [bbotk]             9.825 3ff7ca2d-5639-4cf8-b4e8-c54b618be904
+INFO  [02:41:50.257] [bbotk] Evaluating 5 configuration(s)
+INFO  [02:41:50.336] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [02:41:50.342] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:41:53.908] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:41:57.270] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:42:00.297] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:42:03.698] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:42:07.195] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:42:10.282] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:42:13.454] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:42:16.907] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:42:20.339] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:42:23.955] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:42:24.773] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:42:25.574] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:42:26.372] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:42:27.162] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:42:27.952] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:42:28.738] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:42:29.530] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:42:30.329] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:42:31.159] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:42:31.950] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:42:32.793] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:42:33.593] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:42:34.388] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:42:35.193] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:42:36.120] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:42:36.904] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:42:37.690] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:42:38.488] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:42:39.298] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:42:40.099] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:43:11.047] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:43:27.505] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:43:49.216] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:44:09.354] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:44:27.119] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:44:46.352] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:45:03.216] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:45:25.870] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:45:46.339] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:46:09.378] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:46:10.209] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:46:11.024] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:46:11.826] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:46:12.644] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:46:13.442] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:46:14.256] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:46:15.056] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:46:15.875] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:46:16.699] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:46:17.518] [mlr3] Finished benchmark
+INFO  [02:46:17.639] [bbotk] Result of batch 8:
+INFO  [02:46:17.641] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [02:46:17.641] [bbotk]  polynomial -9.210340  1.535057 -9.210340      3   0.8088956        0      0
+INFO  [02:46:17.641] [bbotk]  polynomial  1.535057 -9.210340 -5.909178      3   0.8020328        0      0
+INFO  [02:46:17.641] [bbotk]  polynomial  1.535057 -3.837642 -2.608015      3   0.8439286        0      0
+INFO  [02:46:17.641] [bbotk]  polynomial  1.535057  6.907755 -5.909178      3   0.7702679        0      0
+INFO  [02:46:17.641] [bbotk]  polynomial  6.907755 -9.210340 -5.909178      4   0.6906162        0      0
+INFO  [02:46:17.641] [bbotk]  runtime_learners                                uhash
+INFO  [02:46:17.641] [bbotk]            33.497 1376b744-6d75-45b8-bdd6-b9a65afe5ecd
+INFO  [02:46:17.641] [bbotk]             7.880 e55d141d-9bf5-4ca6-ac64-760a18694906
+INFO  [02:46:17.641] [bbotk]             8.033 20572bb7-4bc7-4fc2-9065-898237bf70e7
+INFO  [02:46:17.641] [bbotk]           209.153 79c7f221-f632-4e2b-b771-df222cc937fe
+INFO  [02:46:17.641] [bbotk]             8.019 1b787fff-131c-4f46-8d45-7ab96fd79d26
+INFO  [02:46:17.643] [bbotk] Evaluating 5 configuration(s)
+INFO  [02:46:17.727] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [02:46:17.732] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:46:18.569] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:46:19.359] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:46:20.133] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:46:20.908] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:46:21.685] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:46:22.461] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:46:23.233] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:46:24.022] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:46:24.814] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:46:25.591] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:46:26.998] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:46:28.419] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:46:29.831] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:46:31.275] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:46:32.718] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:46:34.069] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:46:35.459] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:46:36.859] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:46:38.291] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:46:39.706] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:46:40.532] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:46:41.356] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:46:42.161] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:46:42.974] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:46:43.777] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:46:44.589] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:46:45.407] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:46:46.219] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:46:47.043] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:46:47.851] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:47:19.173] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:47:36.128] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:47:56.606] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:48:15.985] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:48:32.929] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:48:48.612] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:49:05.295] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:49:26.907] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:49:48.825] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:50:11.521] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:50:12.328] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:50:13.134] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:50:13.926] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:50:14.718] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:50:15.495] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:50:16.288] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:50:17.079] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:50:17.878] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:50:18.695] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:50:19.500] [mlr3] Finished benchmark
+INFO  [02:50:19.621] [bbotk] Result of batch 9:
+INFO  [02:50:19.623] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [02:50:19.623] [bbotk]      linear -9.210340        NA -5.909178     NA   0.8155385        0      0
+INFO  [02:50:19.623] [bbotk]  polynomial -9.210340  1.535057 -5.909178      5   0.7591405        0      0
+INFO  [02:50:19.623] [bbotk]  polynomial  1.535057 -9.210340 -9.210340      5   0.7856885        0      0
+INFO  [02:50:19.623] [bbotk]  polynomial  1.535057  1.535057 -5.909178      3   0.7702881        0      0
+INFO  [02:50:19.623] [bbotk]  polynomial  6.907755 -9.210340 -5.909178      3   0.8020328        0      0
+INFO  [02:50:19.623] [bbotk]  runtime_learners                                uhash
+INFO  [02:50:19.623] [bbotk]             7.747 0fa4eb0c-3ec2-4d54-bca3-d11b4c89bcdd
+INFO  [02:50:19.623] [bbotk]            14.003 c5e4bc34-9900-46fb-9dac-f545a1cc6a1e
+INFO  [02:50:19.623] [bbotk]             8.030 21f636eb-ec44-4658-b6cf-e96c01751713
+INFO  [02:50:19.623] [bbotk]           203.557 d5625d20-09c8-417a-b4ee-651242a6597c
+INFO  [02:50:19.623] [bbotk]             7.856 7924d2a5-7e6d-47db-90f9-f462b7d7cf2d
+INFO  [02:50:19.624] [bbotk] Evaluating 5 configuration(s)
+INFO  [02:50:19.703] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [02:50:19.717] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:50:20.528] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:50:21.338] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:50:22.156] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:50:22.962] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:50:23.762] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:50:24.563] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:50:25.357] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:50:26.183] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:50:27.007] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:50:27.820] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:50:28.830] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:50:29.780] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:50:30.716] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:50:31.659] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:50:32.593] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:50:33.554] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:50:34.507] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:50:35.461] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:50:36.433] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:50:37.406] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:51:08.248] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:51:27.872] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:51:46.069] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:52:05.510] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:52:22.144] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:52:38.024] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:52:54.049] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:53:15.071] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:53:36.948] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:54:01.135] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:54:06.085] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:54:10.272] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:54:14.047] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:54:17.897] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:54:21.338] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:54:24.638] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:54:27.988] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:54:31.652] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:54:35.471] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:54:39.335] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:54:40.462] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:54:41.535] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:54:42.603] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:54:43.717] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:54:44.785] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:54:45.854] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:54:46.921] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:54:47.993] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:54:49.101] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:54:50.200] [mlr3] Finished benchmark
+INFO  [02:54:50.323] [bbotk] Result of batch 10:
+INFO  [02:54:50.325] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [02:54:50.325] [bbotk]  polynomial -9.210340 -9.210340  0.6931472      4   0.6607420        0      0
+INFO  [02:54:50.325] [bbotk]  polynomial -3.837642 -3.837642 -9.2103404      4   0.7278540        0      0
+INFO  [02:54:50.325] [bbotk]  polynomial  6.907755  1.535057 -5.9091779      3   0.7702881        0      0
+INFO  [02:54:50.325] [bbotk]  polynomial  6.907755  1.535057  0.6931472      3   0.7694178        0      0
+INFO  [02:54:50.325] [bbotk]      radial  6.907755 -9.210340 -9.2103404     NA   0.8345600        0      0
+INFO  [02:54:50.325] [bbotk]  runtime_learners                                uhash
+INFO  [02:54:50.325] [bbotk]             7.989 5698bcf0-a92e-4053-a8bc-bacd21367026
+INFO  [02:54:50.325] [bbotk]             9.469 df1444bb-27b0-4235-be98-a56f178a31a3
+INFO  [02:54:50.325] [bbotk]           203.614 ebf017f1-7d09-479a-9204-c2d78623e519
+INFO  [02:54:50.325] [bbotk]            38.084 9704d95d-0d80-474b-b49f-3c35f78abf08
+INFO  [02:54:50.325] [bbotk]            10.739 1cad31b6-2f9f-4111-b2df-2db03219c0f3
+INFO  [02:54:50.327] [bbotk] Evaluating 5 configuration(s)
+INFO  [02:54:50.407] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [02:54:50.412] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:54:52.650] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:54:54.621] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:54:56.610] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [02:54:58.596] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [02:55:00.554] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [02:55:02.533] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [02:55:04.527] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [02:55:06.505] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [02:55:08.463] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [02:55:10.477] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [02:56:35.339] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [02:58:01.250] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [02:59:31.454] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [03:00:59.166] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [03:02:28.328] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [03:03:55.281] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [03:05:25.666] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [03:06:52.953] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [03:08:21.687] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [03:09:49.390] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [03:09:50.224] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [03:09:51.062] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [03:09:51.870] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [03:09:52.687] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [03:09:53.491] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [03:09:54.300] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [03:09:55.109] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [03:09:55.919] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [03:09:56.754] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [03:09:57.552] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [03:09:58.578] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [03:09:59.617] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [03:10:00.662] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [03:10:01.693] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [03:10:02.728] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [03:10:03.724] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [03:10:04.721] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [03:10:05.734] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [03:10:06.799] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [03:10:07.905] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [03:10:08.656] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [03:10:09.372] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [03:10:10.092] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [03:10:10.815] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [03:10:11.537] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [03:10:12.230] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [03:10:12.948] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [03:10:13.667] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [03:10:14.380] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [03:10:15.116] [mlr3] Finished benchmark
+INFO  [03:10:15.241] [bbotk] Result of batch 11:
+INFO  [03:10:15.243] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [03:10:15.243] [bbotk]      linear  1.535057        NA -5.9091779     NA   0.8188035        0      0
+INFO  [03:10:15.243] [bbotk]      linear  6.907755        NA  0.6931472     NA   0.8122165        0      0
+INFO  [03:10:15.243] [bbotk]  polynomial -9.210340 -3.837642 -5.9091779      5   0.7871134        0      0
+INFO  [03:10:15.243] [bbotk]  polynomial  6.907755 -3.837642 -2.6080153      5   0.8077123        0      0
+INFO  [03:10:15.243] [bbotk]      radial  1.535057  1.535057  0.6931472     NA   0.6070904        0      0
+INFO  [03:10:15.243] [bbotk]  runtime_learners                                uhash
+INFO  [03:10:15.243] [bbotk]            19.948 aee79afd-9b57-4319-8d68-6e3a05b174da
+INFO  [03:10:15.243] [bbotk]           878.795 21a2405d-2926-4dc4-b415-8ab8d5d783ec
+INFO  [03:10:15.243] [bbotk]             8.055 5d70194c-4ac4-4005-947f-0ad203e102b9
+INFO  [03:10:15.243] [bbotk]            10.241 4b28b490-e148-4d08-81b0-1d5846e36a10
+INFO  [03:10:15.243] [bbotk]             7.087 e679b051-22c4-41c6-9b01-9c33b2c2004a
+INFO  [03:10:15.245] [bbotk] Evaluating 5 configuration(s)
+INFO  [03:10:15.325] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [03:10:15.331] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [03:10:16.169] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [03:10:17.018] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [03:10:17.832] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [03:10:18.651] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [03:10:19.488] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [03:10:20.305] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [03:10:21.124] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [03:10:21.950] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [03:10:22.796] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [03:10:23.614] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [03:10:24.460] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [03:10:25.284] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [03:10:26.104] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [03:10:26.929] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [03:10:27.750] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [03:10:28.575] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [03:10:29.523] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [03:10:30.344] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [03:10:31.186] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [03:10:32.007] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [03:10:32.824] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [03:10:33.652] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [03:10:34.459] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [03:10:35.280] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [03:10:36.071] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [03:10:36.893] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [03:10:37.693] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [03:10:38.506] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [03:10:39.334] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [03:10:40.159] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [03:10:42.297] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [03:10:44.449] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [03:10:46.508] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [03:10:48.686] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [03:10:50.828] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [03:10:52.846] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [03:10:54.951] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [03:10:57.069] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [03:10:59.175] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [03:11:01.237] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [03:24:50.022] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [03:38:39.369] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [03:51:47.563] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [04:05:41.288] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [04:19:03.896] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [04:33:14.750] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [04:47:18.152] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [05:01:13.602] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [05:15:16.462] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [05:29:11.286] [mlr3] Finished benchmark
+INFO  [05:29:11.422] [bbotk] Result of batch 12:
+INFO  [05:29:11.424] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [05:29:11.424] [bbotk]  polynomial -3.837642 -9.210340  0.6931472      3   0.8051847        0      0
+INFO  [05:29:11.424] [bbotk]  polynomial  1.535057 -9.210340 -9.2103404      3   0.8020328        0      0
+INFO  [05:29:11.424] [bbotk]  polynomial  1.535057 -9.210340  0.6931472      2   0.5742899        0      0
+INFO  [05:29:11.424] [bbotk]  polynomial  1.535057  6.907755 -5.9091779      4   0.7553342        0      0
+INFO  [05:29:11.424] [bbotk]  polynomial  1.535057  6.907755  0.6931472      2   0.5378922        0      0
+INFO  [05:29:11.424] [bbotk]  runtime_learners                                uhash
+INFO  [05:29:11.424] [bbotk]             8.152 06db45bd-402c-4cd1-bac4-bba745489345
+INFO  [05:29:11.424] [bbotk]             8.277 47984b37-9c4a-49a7-b1aa-de06da833670
+INFO  [05:29:11.424] [bbotk]             8.036 5f1ffed1-b62d-43f3-97c4-8b4b1ca67496
+INFO  [05:29:11.424] [bbotk]            20.965 2a0a92d4-90a3-4726-ad19-ed39c18c7255
+INFO  [05:29:11.424] [bbotk]          8289.914 b770fee1-fdd2-4c00-9bf9-a78419da5f7f
+INFO  [05:29:11.426] [bbotk] Evaluating 5 configuration(s)
+INFO  [05:29:11.508] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [05:29:11.514] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [05:31:15.455] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [05:33:27.948] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [05:35:42.693] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [05:37:57.202] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [05:40:13.890] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [05:42:28.044] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [05:44:47.663] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [05:47:00.952] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [05:49:10.111] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [05:51:26.011] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [05:51:27.824] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [05:51:29.544] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [05:51:31.251] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [05:51:33.002] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [05:51:34.733] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [05:51:36.392] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [05:51:38.154] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [05:51:39.867] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [05:51:41.592] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [05:51:43.400] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [06:05:47.657] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [06:19:47.870] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [06:33:52.027] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [06:47:57.155] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [07:01:47.181] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [07:14:56.224] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [07:27:44.105] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [07:40:26.269] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [07:52:43.157] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:04:51.086] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:04:51.926] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:04:52.786] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:04:53.664] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:04:54.531] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:04:55.366] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:04:56.249] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:04:57.098] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:04:57.952] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:04:58.828] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:04:59.699] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:05:00.566] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:05:01.427] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:05:02.270] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:05:03.111] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:05:03.956] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:05:04.820] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:05:05.667] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:05:06.558] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:05:07.434] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:05:08.285] [mlr3] Finished benchmark
+INFO  [08:05:08.403] [bbotk] Result of batch 13:
+INFO  [08:05:08.404] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [08:05:08.404] [bbotk]      linear  6.907755        NA -9.2103404     NA   0.8178551        0      0
+INFO  [08:05:08.404] [bbotk]  polynomial  6.907755  1.535057 -9.2103404      5   0.7591468        0      0
+INFO  [08:05:08.404] [bbotk]  polynomial  6.907755  1.535057 -5.9091779      2   0.5134811        0      0
+INFO  [08:05:08.404] [bbotk]      radial -9.210340 -9.210340  0.6931472     NA   0.4909525        0      0
+INFO  [08:05:08.404] [bbotk]      radial -3.837642 -9.210340  0.6931472     NA   0.5407723        0      0
+INFO  [08:05:08.404] [bbotk]  runtime_learners                                uhash
+INFO  [08:05:08.404] [bbotk]          1334.373 738bdf08-714b-42ba-9dc4-87bb604a7fb3
+INFO  [08:05:08.404] [bbotk]            17.273 68d97b81-a6c3-4c12-a178-183cc3823802
+INFO  [08:05:08.404] [bbotk]          7987.566 8df8ca8b-0ee5-458c-af9a-1660f613cbd4
+INFO  [08:05:08.404] [bbotk]             8.492 5dc5ab1e-16fd-4b48-bd7b-c61138f03628
+INFO  [08:05:08.404] [bbotk]             8.474 7e557ab2-046c-4495-8b50-03857c74e45c
+INFO  [08:05:08.406] [bbotk] Evaluating 5 configuration(s)
+INFO  [08:05:08.474] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [08:05:08.479] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:05:09.198] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:05:09.899] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:05:10.608] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:05:11.307] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:05:12.004] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:05:12.710] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:05:13.409] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:05:14.108] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:05:14.838] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:05:15.539] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:05:16.273] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:05:16.971] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:05:17.675] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:05:18.377] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:05:19.073] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:05:19.780] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:05:20.478] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:05:21.193] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:05:21.914] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:05:22.624] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:05:23.359] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:05:24.074] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:05:24.784] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:05:25.485] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:05:26.171] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:05:26.864] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:05:27.564] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:05:28.273] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:05:28.992] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:05:29.698] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:05:30.670] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:05:31.576] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:05:32.501] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:05:33.429] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:05:34.318] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:05:35.225] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:05:36.116] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:05:37.023] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:05:37.960] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:05:38.856] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:05:40.705] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:05:42.514] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:05:44.314] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:05:46.168] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:05:47.978] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:05:49.784] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:05:51.585] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:05:53.327] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:05:55.076] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:05:56.866] [mlr3] Finished benchmark
+INFO  [08:05:56.972] [bbotk] Result of batch 14:
+INFO  [08:05:56.974] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [08:05:56.974] [bbotk]  polynomial -9.210340 -9.210340 -5.909178      2   0.5702051        0      0
+INFO  [08:05:56.974] [bbotk]  polynomial -9.210340 -3.837642 -5.909178      2   0.6315061        0      0
+INFO  [08:05:56.974] [bbotk]  polynomial -3.837642 -9.210340 -5.909178      2   0.6312581        0      0
+INFO  [08:05:56.974] [bbotk]      radial  1.535057 -9.210340 -9.210340     NA   0.8159095        0      0
+INFO  [08:05:56.974] [bbotk]      radial  6.907755  1.535057 -2.608015     NA   0.6758453        0      0
+INFO  [08:05:56.974] [bbotk]  runtime_learners                                uhash
+INFO  [08:05:56.974] [bbotk]             6.961 4f1a14bf-c23e-457b-bf56-73c495f855ec
+INFO  [08:05:56.974] [bbotk]             6.985 cc920696-642e-4662-a758-769a80e9afbf
+INFO  [08:05:56.974] [bbotk]             6.971 26990d85-8e38-49cc-a4de-9819e4f71eaa
+INFO  [08:05:56.974] [bbotk]             9.053 747ee4fe-7e01-4822-9ba4-e0457ba437e1
+INFO  [08:05:56.974] [bbotk]            17.900 d917e66d-48ab-4a0e-a168-24bb16118bd2
+INFO  [08:05:56.976] [bbotk] Evaluating 5 configuration(s)
+INFO  [08:05:57.044] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [08:05:57.049] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:05:57.731] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:05:58.415] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:05:59.102] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:05:59.775] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:06:00.445] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:06:01.127] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:06:01.803] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:06:02.495] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:06:03.192] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:06:03.865] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:06:04.890] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:06:05.924] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:06:06.955] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:06:07.986] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:06:09.025] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:06:10.055] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:06:11.076] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:06:12.262] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:06:13.300] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:06:14.343] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:06:16.280] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:06:18.207] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:06:20.044] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:06:21.949] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:06:23.856] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:06:25.675] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:06:27.562] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:06:29.620] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:06:31.504] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:06:33.496] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:06:34.904] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:06:36.311] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:06:37.640] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:06:39.047] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [08:06:40.443] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [08:06:41.759] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [08:06:43.089] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [08:06:44.421] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [08:06:45.800] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [08:06:47.164] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [08:18:53.638] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [08:30:46.346] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [08:42:00.492] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [08:53:57.275] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [09:05:32.696] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [09:17:28.209] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [09:29:28.132] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [09:41:26.442] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [09:53:26.755] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [10:05:17.462] [mlr3] Finished benchmark
+INFO  [10:05:17.573] [bbotk] Result of batch 15:
+INFO  [10:05:17.575] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [10:05:17.575] [bbotk]  polynomial -9.210340 -3.837642  0.6931472      3   0.7541491        0      0
+INFO  [10:05:17.575] [bbotk]  polynomial -3.837642  1.535057 -2.6080153      5   0.7591458        0      0
+INFO  [10:05:17.575] [bbotk]  polynomial  6.907755 -3.837642 -5.9091779      3   0.8089042        0      0
+INFO  [10:05:17.575] [bbotk]  polynomial  6.907755  1.535057 -2.6080153      4   0.7553345        0      0
+INFO  [10:05:17.575] [bbotk]  polynomial  6.907755  6.907755  0.6931472      2   0.5222416        0      0
+INFO  [10:05:17.575] [bbotk]  runtime_learners                                uhash
+INFO  [10:05:17.575] [bbotk]             6.709 1ab962b6-9425-4029-aade-8b18ccbfe408
+INFO  [10:05:17.575] [bbotk]            10.378 db1512a4-2725-4849-8e1b-4d9bf911f563
+INFO  [10:05:17.575] [bbotk]            19.054 6a0c5ff5-63ab-4b15-af72-7c3703ead889
+INFO  [10:05:17.575] [bbotk]            13.570 640f2495-1fee-4044-a4e4-315632f3fa5c
+INFO  [10:05:17.575] [bbotk]          7110.187 c1614815-7317-4ea6-abde-0f8efd6608ab
+INFO  [10:05:17.576] [bbotk] Evaluating 5 configuration(s)
+INFO  [10:05:17.647] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [10:05:17.658] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [10:05:18.386] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [10:05:19.108] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [10:05:19.819] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [10:05:20.535] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [10:05:21.235] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [10:05:21.942] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [10:05:22.648] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [10:05:23.356] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [10:05:24.077] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [10:05:24.783] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [10:17:19.932] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [10:29:06.457] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [10:41:03.243] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [10:53:10.759] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [11:04:44.753] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [11:16:47.547] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [11:28:56.405] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [11:40:57.360] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [11:53:02.606] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:04:54.512] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:04:57.138] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:04:59.501] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:05:01.894] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:05:04.243] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:05:06.578] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:05:08.923] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:05:11.270] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:05:13.626] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:05:16.036] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:05:18.401] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:05:20.388] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:05:22.316] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:05:24.272] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:05:26.158] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:05:28.093] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:05:29.995] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:05:31.957] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:05:33.937] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:05:35.875] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:05:37.914] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:05:38.761] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:05:39.574] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:05:40.398] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:05:41.207] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:05:42.013] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:05:42.830] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:05:43.632] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:05:44.456] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:05:45.286] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:05:46.115] [mlr3] Finished benchmark
+INFO  [12:05:46.244] [bbotk] Result of batch 16:
+INFO  [12:05:46.246] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [12:05:46.246] [bbotk]  polynomial -9.210340 -9.210340 -2.6080153      2   0.5723886        0      0
+INFO  [12:05:46.246] [bbotk]  polynomial  1.535057  6.907755 -2.6080153      2   0.5218387        0      0
+INFO  [12:05:46.246] [bbotk]  polynomial  6.907755 -3.837642  0.6931472      2   0.7432869        0      0
+INFO  [12:05:46.246] [bbotk]      radial  1.535057  1.535057 -5.9091779     NA   0.6763347        0      0
+INFO  [12:05:46.246] [bbotk]      radial  6.907755 -9.210340  0.6931472     NA   0.8229186        0      0
+INFO  [12:05:46.246] [bbotk]  runtime_learners                                uhash
+INFO  [12:05:46.246] [bbotk]             7.025 9c0e2409-2c60-458a-b710-c6dc69cd2964
+INFO  [12:05:46.246] [bbotk]          7169.574 c10989be-4c0a-482e-937b-15990acd7cda
+INFO  [12:05:46.246] [bbotk]            23.790 1e46e173-1838-49d4-aebc-5a8f4dedaf15
+INFO  [12:05:46.246] [bbotk]            19.413 7938c266-6940-4895-99f4-679cf7f1c79b
+INFO  [12:05:46.246] [bbotk]             8.074 4a15fc4e-4f42-4919-84cc-9ded9896f88e
+INFO  [12:05:46.249] [bbotk] Evaluating 5 configuration(s)
+INFO  [12:05:46.338] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [12:05:46.344] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:05:47.066] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:05:47.801] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:05:48.506] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:05:49.211] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:05:49.912] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:05:50.611] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:05:51.310] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:05:52.015] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:05:52.734] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:05:53.428] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:05:56.113] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:05:58.548] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:06:01.004] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:06:03.419] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:06:05.805] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:06:08.217] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:06:10.595] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:06:13.045] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:06:15.466] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:06:17.857] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:06:18.780] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:06:19.764] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:06:20.785] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:06:21.765] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:06:22.758] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:06:23.763] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:06:24.715] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:06:25.749] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:06:26.670] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:06:27.660] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:06:28.364] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:06:29.063] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:06:29.777] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:06:30.478] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:06:31.170] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:06:31.880] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:06:32.572] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:06:33.281] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:06:34.002] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:06:34.706] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:06:35.483] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:06:36.326] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:06:37.168] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:06:38.014] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:06:38.857] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:06:39.721] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:06:40.558] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:06:41.406] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:06:42.271] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:06:43.123] [mlr3] Finished benchmark
+INFO  [12:06:43.235] [bbotk] Result of batch 17:
+INFO  [12:06:43.236] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [12:06:43.236] [bbotk]  polynomial -3.837642 -9.210340 -9.2103404      2   0.6312581        0      0
+INFO  [12:06:43.236] [bbotk]  polynomial -3.837642  1.535057  0.6931472      2   0.7422725        0      0
+INFO  [12:06:43.236] [bbotk]  polynomial -3.837642  6.907755  0.6931472      5   0.7577845        0      0
+INFO  [12:06:43.236] [bbotk]  polynomial  6.907755 -9.210340  0.6931472      3   0.8055524        0      0
+INFO  [12:06:43.236] [bbotk]      radial -9.210340 -3.837642  0.6931472     NA   0.8326880        0      0
+INFO  [12:06:43.236] [bbotk]  runtime_learners                                uhash
+INFO  [12:06:43.236] [bbotk]             6.983 55f1eb27-7676-4cdc-80c6-81090be2767f
+INFO  [12:06:43.236] [bbotk]            24.328 6f6e362b-6b16-4a02-9724-ab34441342b0
+INFO  [12:06:43.236] [bbotk]             9.700 25d65096-8e8a-4e8c-820a-d50e8dccd450
+INFO  [12:06:43.236] [bbotk]             6.943 be4a0283-2789-4b8e-82fc-8ebe311cb36f
+INFO  [12:06:43.236] [bbotk]             8.304 8a840a28-838b-4118-81d6-88ef7b19b367
+INFO  [12:06:43.238] [bbotk] Evaluating 5 configuration(s)
+INFO  [12:06:43.309] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [12:06:43.320] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:06:44.057] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:06:44.801] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:06:45.511] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:06:46.228] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:06:46.945] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:06:47.655] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:06:48.370] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:06:49.242] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:06:49.969] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:06:50.679] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:06:51.394] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:06:52.099] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:06:52.812] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:06:53.516] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:06:54.207] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:06:54.903] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:06:55.606] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:06:56.330] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:06:57.052] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:06:57.759] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:06:58.624] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:06:59.456] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:07:00.287] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:07:01.114] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:07:01.934] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:07:02.744] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:07:03.564] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:07:04.391] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:07:05.219] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:07:06.035] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:07:08.486] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:07:10.814] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:07:13.241] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:07:15.779] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:07:18.070] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:07:20.307] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:07:22.785] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:07:25.010] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:07:27.432] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:07:29.834] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:07:33.700] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:07:36.989] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:07:39.980] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:07:43.132] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:07:45.981] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:07:48.782] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:07:51.674] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:07:54.913] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:07:58.228] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:08:01.519] [mlr3] Finished benchmark
+INFO  [12:08:01.630] [bbotk] Result of batch 18:
+INFO  [12:08:01.632] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [12:08:01.632] [bbotk]  polynomial -9.210340 -9.210340 -9.2103404      5   0.5509255        0      0
+INFO  [12:08:01.632] [bbotk]  polynomial -9.210340 -3.837642 -2.6080153      3   0.8020328        0      0
+INFO  [12:08:01.632] [bbotk]  polynomial  1.535057 -3.837642 -2.6080153      2   0.7306056        0      0
+INFO  [12:08:01.632] [bbotk]  polynomial  6.907755  1.535057 -9.2103404      4   0.7553264        0      0
+INFO  [12:08:01.632] [bbotk]  polynomial  6.907755  6.907755  0.6931472      3   0.7696663        0      0
+INFO  [12:08:01.632] [bbotk]  runtime_learners                                uhash
+INFO  [12:08:01.632] [bbotk]             7.256 74d9170f-1c2f-4b3b-8ac7-e3d5bab92c00
+INFO  [12:08:01.632] [bbotk]             6.982 75fc88c9-a93d-4cdd-9c31-879f0597bf78
+INFO  [12:08:01.632] [bbotk]             8.178 fee89615-b385-4484-be74-f7fdfcc57f40
+INFO  [12:08:01.632] [bbotk]            23.702 84892cb7-c964-4d62-9d78-e83ff15f6d53
+INFO  [12:08:01.632] [bbotk]            31.566 649d0541-dc11-422f-be91-91e8b0cae4dc
+INFO  [12:08:01.633] [bbotk] Evaluating 5 configuration(s)
+INFO  [12:08:01.702] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [12:08:01.707] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:08:02.427] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:08:03.149] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:08:03.868] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:08:04.580] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:08:05.278] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:08:05.997] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:08:06.727] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:08:07.458] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:08:08.211] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:08:08.938] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:08:10.485] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:08:11.992] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:08:13.524] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:08:15.085] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:08:16.600] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:08:18.098] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:08:19.562] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:08:21.103] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:08:22.652] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:08:24.289] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:08:25.370] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:08:26.470] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:08:27.547] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:08:28.628] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:08:29.734] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:08:30.809] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:08:31.884] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:08:32.990] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:08:34.092] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:08:35.192] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:08:35.939] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:08:36.686] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:08:37.419] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:08:38.164] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:08:38.889] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:08:39.620] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:08:40.327] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:08:41.053] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:08:41.789] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:08:42.494] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:08:43.986] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:08:45.427] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:08:46.879] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:08:48.337] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:08:49.811] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:08:51.323] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:08:52.825] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:08:54.279] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:08:55.731] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:08:57.185] [mlr3] Finished benchmark
+INFO  [12:08:57.306] [bbotk] Result of batch 19:
+INFO  [12:08:57.307] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [12:08:57.307] [bbotk]  polynomial -3.837642 -3.837642  0.6931472      5   0.7938627        0      0
+INFO  [12:08:57.307] [bbotk]  polynomial -3.837642  1.535057 -9.2103404      5   0.7591468        0      0
+INFO  [12:08:57.307] [bbotk]  polynomial  1.535057  1.535057 -2.6080153      5   0.7591458        0      0
+INFO  [12:08:57.307] [bbotk]  polynomial  6.907755 -9.210340  0.6931472      4   0.6949821        0      0
+INFO  [12:08:57.307] [bbotk]      radial -3.837642  6.907755 -5.9091779     NA   0.5000000        0      0
+INFO  [12:08:57.307] [bbotk]  runtime_learners                                uhash
+INFO  [12:08:57.307] [bbotk]             7.131 c1d40260-c3d4-40ac-a509-6c91975648f5
+INFO  [12:08:57.307] [bbotk]            15.245 7fd746c9-761e-44e4-bebd-8e590c7ab285
+INFO  [12:08:57.307] [bbotk]            10.800 e485fadf-8e00-4f74-8492-d9e5e2665295
+INFO  [12:08:57.307] [bbotk]             7.187 eec63139-070a-4e8a-8f08-1627d4186331
+INFO  [12:08:57.307] [bbotk]            14.583 6bec2f2d-6889-4afd-9722-041ac6464a7d
+INFO  [12:08:57.309] [bbotk] Evaluating 5 configuration(s)
+INFO  [12:08:57.376] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [12:08:57.381] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:08:57.993] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:08:58.597] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:08:59.199] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:08:59.820] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:09:00.424] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:09:01.032] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:09:01.641] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:09:02.261] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:09:02.876] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:09:03.491] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:09:59.225] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:10:29.756] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:11:05.442] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:11:38.082] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:12:09.134] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:12:37.077] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:13:07.048] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:13:50.630] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:14:25.119] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:15:03.367] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:15:04.790] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:15:06.198] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:15:07.527] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:15:08.916] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:15:10.293] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:15:11.627] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:15:12.983] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:15:14.301] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:15:15.679] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:15:17.046] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:15:18.896] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:15:20.638] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:15:22.368] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:15:24.119] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:15:25.853] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:15:27.605] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:15:29.377] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:15:31.132] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:15:32.874] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:15:34.625] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:15:36.471] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:15:38.334] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:15:40.212] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:15:42.161] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:15:44.130] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:15:46.016] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:15:47.913] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:15:49.819] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:15:51.692] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:15:53.612] [mlr3] Finished benchmark
+INFO  [12:15:53.723] [bbotk] Result of batch 20:
+INFO  [12:15:53.725] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [12:15:53.725] [bbotk]  polynomial  1.535057 -3.837642  0.6931472      3   0.8402963        0      0
+INFO  [12:15:53.725] [bbotk]  polynomial  1.535057  1.535057 -9.2103404      3   0.7702578        0      0
+INFO  [12:15:53.725] [bbotk]  polynomial  6.907755  6.907755 -2.6080153      4   0.7554527        0      0
+INFO  [12:15:53.725] [bbotk]      radial -3.837642  1.535057 -5.9091779     NA   0.6758758        0      0
+INFO  [12:15:53.725] [bbotk]      radial  1.535057  6.907755 -9.2103404     NA   0.5000000        0      0
+INFO  [12:15:53.725] [bbotk]  runtime_learners                                uhash
+INFO  [12:15:53.725] [bbotk]             6.009 7419dd9d-84b4-4f5b-a04f-cd294a6f485c
+INFO  [12:15:53.725] [bbotk]           359.774 0d44e654-e9b7-4a23-b6b0-acbecf274c2c
+INFO  [12:15:53.725] [bbotk]            13.578 05112fa5-cb33-4540-b33d-66d3853801d5
+INFO  [12:15:53.725] [bbotk]            17.479 fdf97890-e290-4598-bf13-3e2bd54305e6
+INFO  [12:15:53.725] [bbotk]            18.876 e4ab5a18-8180-4ad1-95ec-1592f54d8c23
+INFO  [12:15:53.727] [bbotk] Evaluating 5 configuration(s)
+INFO  [12:15:53.807] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [12:15:53.811] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:15:54.533] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:15:55.213] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:15:55.894] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:15:56.591] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:15:57.266] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:15:57.939] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:15:58.616] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:15:59.311] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:16:00.003] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:16:00.684] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:16:01.392] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:16:02.087] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:16:02.789] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:16:03.474] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:16:04.154] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:16:04.833] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:16:05.523] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:16:06.212] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:16:06.917] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:16:07.604] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:16:10.073] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:16:12.408] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:16:14.704] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:16:17.265] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:16:19.543] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:16:21.629] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:16:24.187] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:16:26.499] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:16:28.946] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:16:31.091] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:16:32.865] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:16:34.658] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:16:36.390] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:16:38.200] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:16:40.013] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:16:41.748] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:16:43.574] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:16:45.339] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:16:47.130] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:16:48.908] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:16:49.836] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:16:50.714] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:16:51.574] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:16:52.468] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:16:53.312] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:16:54.169] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:16:55.033] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:16:55.896] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:16:56.784] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:16:57.653] [mlr3] Finished benchmark
+INFO  [12:16:57.765] [bbotk] Result of batch 21:
+INFO  [12:16:57.766] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [12:16:57.766] [bbotk]      linear -3.837642        NA -2.608015     NA   0.8192770        0      0
+INFO  [12:16:57.766] [bbotk]  polynomial -3.837642 -3.837642 -2.608015      3   0.8144412        0      0
+INFO  [12:16:57.766] [bbotk]  polynomial -3.837642  1.535057 -9.210340      4   0.7553264        0      0
+INFO  [12:16:57.766] [bbotk]  polynomial -3.837642  1.535057 -5.909178      4   0.7553347        0      0
+INFO  [12:16:57.766] [bbotk]      radial -9.210340  1.535057 -2.608015     NA   0.6300402        0      0
+INFO  [12:16:57.766] [bbotk]  runtime_learners                                uhash
+INFO  [12:16:57.766] [bbotk]             6.773 6be70288-eafc-4978-a857-f82bfccd5ebd
+INFO  [12:16:57.766] [bbotk]             6.820 032fe4f9-836f-4eca-a323-f00e3af05c5f
+INFO  [12:16:57.766] [bbotk]            23.387 55bd8457-e56e-4872-8f55-e8c276bd9cc3
+INFO  [12:16:57.766] [bbotk]            17.712 d03c6965-2410-45ce-8546-1c194c6deef1
+INFO  [12:16:57.766] [bbotk]             8.633 2310feec-11bb-428a-a2fb-8bb247d2d52f
+INFO  [12:16:57.768] [bbotk] Evaluating 5 configuration(s)
+INFO  [12:16:57.846] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [12:16:57.851] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:17:01.768] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:17:05.194] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:17:08.425] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:17:11.684] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:17:14.630] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:17:17.505] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:17:20.326] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:17:23.598] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:17:26.951] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:17:30.375] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:17:31.278] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:17:32.119] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:17:32.963] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [12:17:33.812] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [12:17:34.661] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [12:17:35.493] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [12:17:36.339] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [12:17:37.191] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [12:17:38.041] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [12:17:38.880] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [12:29:28.751] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [12:41:23.202] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [12:52:56.337] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [13:04:55.337] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [13:16:55.973] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [13:30:46.357] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [13:43:42.126] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [13:59:27.790] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [14:19:15.654] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [14:33:47.962] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [14:33:48.979] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [14:33:50.005] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [14:33:50.907] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [14:33:51.795] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [14:33:52.679] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [14:33:53.563] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [14:33:54.460] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [14:33:55.351] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [14:33:56.237] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [14:33:57.097] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [14:33:58.169] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [14:33:59.220] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [14:34:00.228] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [14:34:01.229] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [14:34:02.237] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [14:34:03.242] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [14:34:04.253] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [14:34:05.284] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [14:34:06.306] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [14:34:07.292] [mlr3] Finished benchmark
+INFO  [14:34:07.427] [bbotk] Result of batch 22:
+INFO  [14:34:07.429] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [14:34:07.429] [bbotk]  polynomial -9.210340  6.907755  0.6931472      3   0.7696663        0      0
+INFO  [14:34:07.429] [bbotk]  polynomial  1.535057 -3.837642 -5.9091779      4   0.7942796        0      0
+INFO  [14:34:07.429] [bbotk]  polynomial  1.535057  6.907755 -5.9091779      2   0.5422952        0      0
+INFO  [14:34:07.429] [bbotk]  polynomial  6.907755 -9.210340 -2.6080153      2   0.6362143        0      0
+INFO  [14:34:07.429] [bbotk]      radial -9.210340 -3.837642 -2.6080153     NA   0.8275229        0      0
+INFO  [14:34:07.429] [bbotk]  runtime_learners                                uhash
+INFO  [14:34:07.429] [bbotk]            32.421 5e06ce3d-ae32-4a0b-bb1d-30ed5468ef86
+INFO  [14:34:07.429] [bbotk]             8.400 0bb607d9-f387-4590-ba60-288c9f6d689d
+INFO  [14:34:07.429] [bbotk]          8168.916 bf502e76-1128-4fc6-ae2b-92ea54ef0f40
+INFO  [14:34:07.429] [bbotk]             8.994 2cdb38a7-f5de-40ba-8c89-95ccabbc2923
+INFO  [14:34:07.429] [bbotk]            10.069 2c00f603-8cf5-4b29-bb17-0b2839044a6d
+INFO  [14:34:07.431] [bbotk] Evaluating 5 configuration(s)
+INFO  [14:34:07.524] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [14:34:07.536] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [14:34:08.376] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [14:34:09.206] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [14:34:10.026] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [14:34:10.850] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [14:34:11.637] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [14:34:12.430] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [14:34:13.225] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [14:34:14.019] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [14:34:14.838] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [14:34:15.633] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [14:34:16.439] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [14:34:17.252] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [14:34:18.051] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [14:34:18.910] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [14:34:19.761] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [14:34:20.564] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [14:34:21.373] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [14:34:22.181] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [14:34:22.995] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [14:34:23.795] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [14:49:13.713] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [15:02:22.488] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [15:16:44.016] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [15:30:55.699] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [15:44:11.331] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [15:57:22.809] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [16:10:30.616] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [16:23:37.208] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [16:36:28.056] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [16:49:16.364] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [16:49:18.433] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [16:49:20.425] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [16:49:22.586] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [16:49:24.547] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [16:49:26.509] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [16:49:28.475] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [16:49:30.450] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [16:49:32.413] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [16:49:34.442] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [16:49:36.418] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [16:49:38.013] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [16:49:39.616] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [16:49:41.200] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [16:49:42.820] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [16:49:44.472] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [16:49:46.088] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [16:49:47.739] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [16:49:49.381] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [16:49:50.977] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [16:49:52.604] [mlr3] Finished benchmark
+INFO  [16:49:52.767] [bbotk] Result of batch 23:
+INFO  [16:49:52.770] [bbotk]      kernel      cost     gamma  tolerance degree classif.auc warnings errors
+INFO  [16:49:52.770] [bbotk]  polynomial -3.837642 -9.210340 -9.2103404      5   0.3664081        0      0
+INFO  [16:49:52.770] [bbotk]  polynomial -3.837642 -3.837642  0.6931472      4   0.7047188        0      0
+INFO  [16:49:52.770] [bbotk]  polynomial  6.907755  1.535057  0.6931472      2   0.5248640        0      0
+INFO  [16:49:52.770] [bbotk]      radial -3.837642  1.535057 -9.2103404     NA   0.6763123        0      0
+INFO  [16:49:52.770] [bbotk]      radial  1.535057  6.907755 -2.6080153     NA   0.5000000        0      0
+INFO  [16:49:52.770] [bbotk]  runtime_learners                                uhash
+INFO  [16:49:52.770] [bbotk]             7.986 8234c87d-c815-4510-9086-23b4e5501bf6
+INFO  [16:49:52.770] [bbotk]             8.024 8c0a9485-4cb3-451f-9fdf-7fbbb49d59bd
+INFO  [16:49:52.770] [bbotk]          8092.433 517db0ce-3871-427f-8898-22c99abd605b
+INFO  [16:49:52.770] [bbotk]            19.941 af5192c3-8fad-423a-8b6d-ab1f8e8bbe57
+INFO  [16:49:52.770] [bbotk]            16.049 1ea8cae2-7940-417c-9e07-cadf98e040de
+INFO  [16:49:52.773] [bbotk] Evaluating 5 configuration(s)
+INFO  [16:49:52.877] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [16:49:52.883] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [16:51:40.276] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [16:53:40.810] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [16:55:41.857] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [16:57:43.543] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [16:59:47.359] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [17:01:50.938] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [17:03:55.744] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [17:05:58.096] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [17:07:53.576] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [17:09:56.578] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [17:09:57.305] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [17:09:58.030] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [17:09:58.743] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [17:09:59.453] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [17:10:00.150] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [17:10:00.862] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [17:10:01.564] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [17:10:02.277] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [17:10:03.008] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [17:10:03.711] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [17:10:04.476] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [17:10:05.204] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [17:10:05.933] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [17:10:06.657] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [17:10:07.372] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [17:10:08.105] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [17:10:08.815] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [17:10:09.535] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [17:10:10.277] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [17:10:10.991] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [17:10:31.344] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [17:10:50.085] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [17:11:09.430] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [17:11:27.780] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [17:11:43.043] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [17:11:56.168] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [17:12:11.338] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [17:12:31.372] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [17:12:50.375] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [17:13:10.620] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [17:13:13.141] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [17:13:15.733] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [17:13:18.391] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [17:13:20.911] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [17:13:23.763] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [17:13:26.074] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [17:13:29.067] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [17:13:31.873] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [17:13:34.291] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [17:13:36.678] [mlr3] Finished benchmark
+INFO  [17:13:36.788] [bbotk] Result of batch 24:
+INFO  [17:13:36.790] [bbotk]      kernel      cost     gamma tolerance degree classif.auc warnings errors
+INFO  [17:13:36.790] [bbotk]      linear  6.907755        NA -2.608015     NA   0.8186678        0      0
+INFO  [17:13:36.790] [bbotk]  polynomial -9.210340 -9.210340 -5.909178      3   0.6770956        0      0
+INFO  [17:13:36.790] [bbotk]  polynomial -3.837642 -3.837642 -2.608015      4   0.6895665        0      0
+INFO  [17:13:36.790] [bbotk]  polynomial -3.837642  1.535057 -5.909178      3   0.7678762        0      0
+INFO  [17:13:36.790] [bbotk]  polynomial -3.837642  6.907755 -9.210340      4   0.7553264        0      0
+INFO  [17:13:36.790] [bbotk]  runtime_learners                                uhash
+INFO  [17:13:36.790] [bbotk]          1203.589 5205a05b-81a4-4670-9f2b-03cb7c57b7e8
+INFO  [17:13:36.790] [bbotk]             7.030 7ab00aa3-bb19-4bd9-9a1c-2c156737caf1
+INFO  [17:13:36.790] [bbotk]             7.179 e0168577-2fc1-4e7e-abda-6f93f90368e0
+INFO  [17:13:36.790] [bbotk]           179.525 3886f4c1-1d37-4023-a413-bb186cd2a5d3
+INFO  [17:13:36.790] [bbotk]            25.946 5aca7bb6-f572-4b01-93f2-ba25f793d251
+INFO  [17:13:36.792] [bbotk] Evaluating 5 configuration(s)
+INFO  [17:13:36.873] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [17:13:36.878] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [17:13:37.743] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [17:13:38.559] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [17:13:39.383] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [17:13:40.226] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [17:13:41.043] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [17:13:41.857] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [17:13:42.673] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [17:13:43.501] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [17:13:44.321] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [17:13:45.136] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [17:13:46.199] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [17:13:47.268] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [17:13:48.347] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [17:13:49.404] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [17:13:50.495] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [17:13:51.559] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [17:13:52.600] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [17:13:53.687] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [17:13:54.777] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [17:13:55.856] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [17:13:57.080] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [17:13:58.353] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [17:13:59.584] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [17:14:00.839] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [17:14:02.111] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [17:14:03.345] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [17:14:04.592] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [17:14:05.889] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [17:14:07.201] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [17:14:08.496] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [17:26:33.542] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [17:38:53.682] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [17:51:09.698] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [18:03:26.563] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [18:16:55.769] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [18:32:49.067] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [18:50:04.378] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [19:04:24.033] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [19:17:46.745] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [19:30:55.913] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [19:30:56.893] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [19:30:57.833] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [19:30:58.781] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [19:30:59.755] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [19:31:00.676] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [19:31:01.618] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [19:31:02.556] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [19:31:03.510] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [19:31:04.476] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [19:31:05.453] [mlr3] Finished benchmark
+INFO  [19:31:05.598] [bbotk] Result of batch 25:
+INFO  [19:31:05.601] [bbotk]      kernel      cost    gamma tolerance degree classif.auc warnings errors
+INFO  [19:31:05.601] [bbotk]  polynomial -9.210340 1.535057 -2.608015      2   0.7306976        0      0
+INFO  [19:31:05.601] [bbotk]  polynomial -9.210340 1.535057 -2.608015      5   0.7591458        0      0
+INFO  [19:31:05.601] [bbotk]  polynomial -3.837642 1.535057 -5.909178      5   0.7591405        0      0
+INFO  [19:31:05.601] [bbotk]  polynomial -3.837642 6.907755 -2.608015      2   0.5420836        0      0
+INFO  [19:31:05.601] [bbotk]      radial -9.210340 1.535057 -5.909178     NA   0.6300408        0      0
+INFO  [19:31:05.601] [bbotk]  runtime_learners                                uhash
+INFO  [19:31:05.601] [bbotk]             8.158 170d34a2-03ef-4841-b78f-a2549b33ea3c
+INFO  [19:31:05.601] [bbotk]            10.616 04a62d6d-de7f-44d0-8ea8-0d7628c8be21
+INFO  [19:31:05.601] [bbotk]            12.530 40bd5bc1-1672-4cca-9e46-dfd5d57c0f85
+INFO  [19:31:05.601] [bbotk]          8207.292 231c54d2-6f15-4fea-b51a-b6c6d6c44b3b
+INFO  [19:31:05.601] [bbotk]             9.415 1fd7c9d9-09b5-47ab-ac06-562b84f1a7f2
+INFO  [19:31:05.602] [bbotk] Evaluating 5 configuration(s)
+INFO  [19:31:05.692] [mlr3] Running benchmark with 50 resampling iterations
+INFO  [19:31:05.698] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [19:31:17.439] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [19:31:25.619] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [19:31:34.652] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [19:31:43.642] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [19:31:51.252] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [19:31:59.227] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [19:32:06.664] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
+INFO  [19:32:15.800] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 9/10)
+INFO  [19:32:25.062] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 10/10)
+INFO  [19:32:34.193] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 1/10)
+INFO  [19:36:26.350] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 2/10)
+INFO  [19:40:52.915] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 3/10)
+INFO  [19:45:19.082] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 4/10)
+INFO  [19:49:44.479] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 5/10)
+INFO  [19:54:17.016] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 6/10)
+INFO  [19:59:00.618] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 7/10)
+INFO  [20:03:37.603] [mlr3] Applying learner 'classif.svm' on task 'data_for_ML' (iter 8/10)
